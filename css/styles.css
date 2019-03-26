@@ -1,0 +1,81 @@
+/************************************************
+
+CSS REGLER FOR FONTS
+
+*************************************************/
+
+
+/************************************************
+
+CSS GENERELLE REGLER
+
+*************************************************/
+
+.fsize-xs {
+  font-size: 14px;
+}
+
+/* font-size 16px */
+
+.fsize-sm {
+  font-size: 16px;
+}
+
+/* font-size 18px */
+
+.fsize-md {
+  font-size: 18px;
+}
+
+/* font-size 30px */
+
+.fsize-lg {
+  font-size: 30px;
+}
+
+/* font-size 48px */
+
+.fsize-xl {
+  font-size: 48px;
+}
+
+/* font-size 60px */
+
+.fsize-xxl {
+  font-size: 60px;
+}
+
+/* font-size 80px */
+
+.fsize-xxxl {
+  font-size: 120px;
+}
+
+
+/************************************************
+
+CSS REGLER FOR BILLEDFORMAT (JPG, PNG, SVG) OG LOGO
+
+*************************************************/
+
+
+
+/************************************************
+
+CSS REGLER FOR MEDIEQUIRES
+
+*************************************************/
+@media (min-width: 576px){
+
+}
+
+@media (min-width: 768px) {
+
+}
+
+@media (min-width: 992px){
+ }
+
+@media (min-width: 1200px){
+
+}

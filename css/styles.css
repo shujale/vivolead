@@ -4,7 +4,6 @@ CSS REGLER FOR FONTS
 
 *************************************************/
 
-
 /************************************************
 
 CSS GENERELLE REGLER
@@ -51,31 +50,105 @@ CSS GENERELLE REGLER
   font-size: 120px;
 }
 
-
 /************************************************
 
 CSS REGLER FOR BILLEDFORMAT (JPG, PNG, SVG) OG LOGO
 
 *************************************************/
 
+.logo {
+  max-width: 240px;
+}
 
+.footer-logo{
+  max-width: 240px;
+  margin-bottom: 20px;
+}
+
+.translate-svg {
+  width: 23px;
+  height: 23px;
+  margin-right: 9px;
+}
+
+/************************************************
+
+CSS REGLER FOR NAVIGATION
+
+*************************************************/
+
+.navbar {
+  min-height: 100px;
+  background-color: #54b9a0;
+}
+
+.navbar .nav-link {
+  color: #ffffff;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  margin-left: 20px;
+}
+
+.navbar .logo {
+  margin-left: 20px;
+}
+
+.navbar .navbar-right .nav-item {
+  border: 2px solid #ffffff;
+  border-radius: 5px;
+  margin-right: 20px;
+}
+
+.navbar .navbar-right .nav-item .nav-link {
+  margin-left: 0;
+  padding: 13px 30px;
+}
+
+/************************************************
+
+CSS REGLER FOR FOOTER
+
+*************************************************/
+
+footer {
+  background-color: #3c3c3c;
+  padding: 70px 0;
+}
+
+footer .footer-title {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  font-size: 25px;
+  color: #ffffff;
+}
+
+footer .footer-p{
+  font-family: 'Raleway', sans-serif;
+  color: #ffffff;
+}
+
+footer .footer-p:hover{
+  color: #ffffff;
+}
+
+
+footer .right-arrow{
+  width: 10px;
+  height: 10px;
+  margin-right: 15px;
+}
 
 /************************************************
 
 CSS REGLER FOR MEDIEQUIRES
 
 *************************************************/
-@media (min-width: 576px){
 
-}
+@media (min-width: 576px) {}
 
-@media (min-width: 768px) {
+@media (min-width: 768px) {}
 
-}
+@media (min-width: 992px) {}
 
-@media (min-width: 992px){
- }
-
-@media (min-width: 1200px){
-
-}
+@media (min-width: 1200px) {}

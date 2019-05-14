@@ -57,10 +57,10 @@ CSS REGLER FOR BILLEDFORMAT (JPG, PNG, SVG) OG LOGO
 *************************************************/
 
 .logo {
-  max-width: 240px;
+  max-width: 182px;
 }
 
-.footer-logo{
+.footer-logo {
   max-width: 240px;
   margin-bottom: 20px;
 }
@@ -79,30 +79,61 @@ CSS REGLER FOR NAVIGATION
 
 .navbar {
   min-height: 100px;
+  padding-left: 0 !important;
+  -webkit-box-align: baseline !important;
+  -ms-flex-align: baseline !important;
+  align-items: baseline !important;
+}
+
+.navbar .navbar-brand {
   background-color: #54b9a0;
+  padding: 16px 24px;
 }
 
 .navbar .nav-link {
-  color: #ffffff;
   font-family: 'Raleway', sans-serif;
   font-weight: 600;
-  font-size: 16px;
+  font-size: 15px;
   margin-left: 20px;
-}
-
-.navbar .logo {
-  margin-left: 20px;
-}
-
-.navbar .navbar-right .nav-item {
-  border: 2px solid #ffffff;
-  border-radius: 5px;
-  margin-right: 20px;
+  color: #3c3c3c;
 }
 
 .navbar .navbar-right .nav-item .nav-link {
   margin-left: 0;
-  padding: 13px 30px;
+  padding: 8px 28px;
+}
+
+.navbar .navbar-right .nav-item .nav-link {
+  color: #54b9a0;
+}
+
+.navbar .navbar-right .nav-item-reversed .nav-link {
+  color: #ffffff !important;
+}
+
+.navbar .navbar-right .nav-item {
+  background-color: #eeeeee;
+  border: 2px solid #54b9a0;
+  border-radius: 5px;
+  margin-right: 20px;
+}
+
+.navbar .navbar-right .nav-item-reversed {
+  background-color: #54b9a0 !important;
+}
+
+.dropdown-toggle::after{
+  content: url(../images/arrow-down.svg) !important;
+  border: none !important;
+  width: 10px !important;
+  vertical-align: baseline !important;
+}
+
+.navbar .navbar-right .nav-item .dropdown-toggle::after{
+  content: url(../images/arrow-down-green.svg) !important;
+  border: none !important;
+  width: 10px !important;
+  vertical-align: baseline !important;
 }
 
 /************************************************
@@ -123,20 +154,13 @@ footer .footer-title {
   color: #ffffff;
 }
 
-footer .footer-p{
+footer .footer-p {
   font-family: 'Raleway', sans-serif;
   color: #ffffff;
 }
 
-footer .footer-p:hover{
+footer .footer-p:hover {
   color: #ffffff;
-}
-
-
-footer .right-arrow{
-  width: 10px;
-  height: 10px;
-  margin-right: 15px;
 }
 
 /************************************************
@@ -145,10 +169,10 @@ CSS REGLER FOR MEDIEQUIRES
 
 *************************************************/
 
-@media (min-width: 576px) {}
+@media (max-width: 1200px) {}
 
-@media (min-width: 768px) {}
+@media (max-width: 992px) {}
 
-@media (min-width: 992px) {}
+@media (max-width: 768px) {}
 
-@media (min-width: 1200px) {}
+@media (max-width: 576px) {}

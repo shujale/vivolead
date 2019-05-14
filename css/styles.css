@@ -4,6 +4,14 @@ CSS REGLER FOR FONTS
 
 *************************************************/
 
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Raleway', sans-serif;
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+}
+
 /************************************************
 
 CSS GENERELLE REGLER
@@ -48,6 +56,52 @@ CSS GENERELLE REGLER
 
 .fsize-xxxl {
   font-size: 120px;
+}
+
+/************************************************
+
+CSS REGLER FOR KNAPPER
+
+*************************************************/
+
+.btn {
+  font-family: 'Raleway', sans-serif !important;
+  font-weight: 600 !important;
+  font-size: 15px !important;
+  padding: 10px 40px !important;
+  border-radius: 5px !important;
+  margin-bottom: 10px !important
+}
+
+.btn-primary {
+  background-color: #54b9a0 !important;
+  border: 1px solid #54b9a0 !important;
+  color: #ffffff !important;
+}
+
+.btn-primary:hover {
+  background-color: #fbba1c !important;
+  border: 1px solid #fbba1c !important;
+  color: #3c3c3c !important;
+}
+
+
+.btn-secondary {
+  background-color: #ffffff !important;
+  border: 1px solid #54b9a0 !important;
+  color: #54b9a0 !important;
+}
+
+.btn-secondary:hover {
+  background-color: #3c3c3c !important;
+  border: 1px solid #3c3c3c !important;
+  color: #fbba1c !important;
+}
+
+.btn-primary:not(:disabled):not(.disabled):active:focus,
+.btn-secondary:not(:disabled):not(.disabled):active:focus
+{
+    box-shadow:none !important;
 }
 
 /************************************************
@@ -122,14 +176,14 @@ CSS REGLER FOR NAVIGATION
   background-color: #54b9a0 !important;
 }
 
-.dropdown-toggle::after{
+.dropdown-toggle::after {
   content: url(../images/arrow-down.svg) !important;
   border: none !important;
   width: 10px !important;
   vertical-align: baseline !important;
 }
 
-.navbar .navbar-right .nav-item .dropdown-toggle::after{
+.navbar .navbar-right .nav-item .dropdown-toggle::after {
   content: url(../images/arrow-down-green.svg) !important;
   border: none !important;
   width: 10px !important;

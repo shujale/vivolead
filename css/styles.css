@@ -77,6 +77,9 @@ CSS REGLER FOR KNAPPER
   background-color: #54b9a0 !important;
   border: 1px solid #54b9a0 !important;
   color: #ffffff !important;
+  -webkit-box-shadow: 0px 3px 6px 0px rgba(60, 60, 60, 0.29) !important;
+  -moz-box-shadow: 0px 3px 6px 0px rgba(60, 60, 60, 0.29) !important;
+  box-shadow: 0px 3px 6px 0px rgba(60, 60, 60, 0.29) !important;
 }
 
 .btn-primary:hover {
@@ -85,10 +88,12 @@ CSS REGLER FOR KNAPPER
   color: #3c3c3c !important;
 }
 
-
 .btn-secondary {
   background-color: #ffffff !important;
   border: 1px solid #54b9a0 !important;
+  -webkit-box-shadow: 0px 3px 6px 0px rgba(60, 60, 60, 0.29) !important;
+  -moz-box-shadow: 0px 3px 6px 0px rgba(60, 60, 60, 0.29) !important;
+  box-shadow: 0px 3px 6px 0px rgba(60, 60, 60, 0.29) !important;
   color: #54b9a0 !important;
 }
 
@@ -98,10 +103,8 @@ CSS REGLER FOR KNAPPER
   color: #fbba1c !important;
 }
 
-.btn-primary:not(:disabled):not(.disabled):active:focus,
-.btn-secondary:not(:disabled):not(.disabled):active:focus
-{
-    box-shadow:none !important;
+.btn-primary:not(:disabled):not(.disabled):active:focus, .btn-secondary:not(:disabled):not(.disabled):active:focus {
+  box-shadow: none !important;
 }
 
 /************************************************
@@ -120,8 +123,8 @@ CSS REGLER FOR BILLEDFORMAT (JPG, PNG, SVG) OG LOGO
 }
 
 .translate-svg {
-  width: 23px;
-  height: 23px;
+  width: 15px;
+  height: 15px;
   margin-right: 9px;
 }
 
@@ -154,11 +157,11 @@ CSS REGLER FOR NAVIGATION
 
 .navbar .navbar-right .nav-item .nav-link {
   margin-left: 0;
-  padding: 8px 28px;
+  padding: 2px 19px;
 }
 
 .navbar .navbar-right .nav-item .nav-link {
-  color: #54b9a0;
+  color: #d8d8d8;
 }
 
 .navbar .navbar-right .nav-item-reversed .nav-link {
@@ -166,14 +169,56 @@ CSS REGLER FOR NAVIGATION
 }
 
 .navbar .navbar-right .nav-item {
-  background-color: #eeeeee;
-  border: 2px solid #54b9a0;
+  background-color: #ffffff;
+  border: 2px solid #d8d8d8;
   border-radius: 5px;
   margin-right: 20px;
 }
 
 .navbar .navbar-right .nav-item-reversed {
   background-color: #54b9a0 !important;
+  border: 1px solid #54b9a0 !important;
+}
+
+/************************************************
+
+CSS REGLER FOR DROPDOWN
+
+*************************************************/
+
+.dropdown-menu {
+  font-family: 'Raleway', sans-serif !important;
+  font-size: 14px !important;
+  border-radius: 1px !important;
+  border: none !important;
+  -webkit-box-shadow: 0px 3px 6px 0px rgba(60, 60, 60, 0.29) !important;
+  -moz-box-shadow: 0px 3px 6px 0px rgba(60, 60, 60, 0.29) !important;
+  box-shadow: 0px 3px 6px 0px rgba(60, 60, 60, 0.29) !important;
+  width: 24rem;
+  padding: 24px 0 !important;
+  margin: 16px 27px !important;
+}
+
+.dropdown-menu .noextra {
+  width: 10rem !important;
+  background: red !important;
+  font-size: 50px !important;
+}
+
+.dropdown-menu.show {
+  display: flex !important;
+}
+
+.dropdown-divider {
+  border-left: 1px solid #eeeeee !important;
+  min-height: 135px !important;
+  position: absolute !important;
+  right: 211px !important;
+}
+
+.dropdown-item:hover {
+  background-color: transparent !important;
+  color: #d8d8d8 !important;
 }
 
 .dropdown-toggle::after {
@@ -184,7 +229,7 @@ CSS REGLER FOR NAVIGATION
 }
 
 .navbar .navbar-right .nav-item .dropdown-toggle::after {
-  content: url(../images/arrow-down-green.svg) !important;
+  content: url(../images/arrow-down-grey.svg) !important;
   border: none !important;
   width: 10px !important;
   vertical-align: baseline !important;
@@ -215,6 +260,68 @@ footer .footer-p {
 
 footer .footer-p:hover {
   color: #ffffff;
+}
+
+/************************************************
+
+CSS REGLER FOR SECTIONS
+
+*************************************************/
+
+/** CSS for schedule meeting section **/
+section.schedule-meeting{
+
+}
+
+/** CSS for sections on cases page **/
+
+section.cases-text-introduction {
+  padding: 74px 243px 50px 100px;
+  color: #3c3c3c;
+}
+
+section.cases-text-introction h1 {
+  font-weight: 600;
+}
+
+section.cases-text-introduction p {
+  font-size: 25px;
+}
+
+section.cases-showcase {
+  padding: 74px 100px 50px 100px;
+}
+
+section.cases-showcase img {
+  min-width: 300px;
+  min-height: 350px;
+  border: 1px solid #3c3c3c;
+  border-radius: 5px;
+  position: relative;
+}
+
+section.cases-showcase figure {
+  position: relative;
+}
+
+section.cases-showcase figcaption {
+  position: absolute;
+  bottom: 10px;
+  min-width: 300px;
+  border-top: 1px solid #3c3c3c;
+}
+
+section.cases-showcase figcaption h3 {
+  font-weight: 600;
+  font-size: 20px;
+  margin-left: 12px;
+  margin-top: 12px;
+}
+
+section.cases-showcase .btn {
+  max-width: 300px;
+  width: 100%;
+  margin-bottom: 60px !important;
 }
 
 /************************************************

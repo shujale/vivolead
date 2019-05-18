@@ -5,11 +5,11 @@ CSS REGLER FOR FONTS
 *************************************************/
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Raleway', sans-serif !important;
 }
 
 p {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Open Sans', sans-serif !important;
 }
 
 /************************************************
@@ -269,19 +269,19 @@ CSS REGLER FOR SECTIONS
 *************************************************/
 
 /** CSS for schedule meeting section **/
-section.schedule-meeting{
 
-}
+section.schedule-meeting {}
 
 /** CSS for sections on cases page **/
 
 section.cases-text-introduction {
-  padding: 74px 243px 50px 100px;
+  padding: 74px 130px 50px 100px;
   color: #3c3c3c;
 }
 
-section.cases-text-introction h1 {
-  font-weight: 600;
+section.cases-text-introduction h1 {
+  font-weight: 700;
+  font-size: 59px;
 }
 
 section.cases-text-introduction p {
@@ -289,7 +289,7 @@ section.cases-text-introduction p {
 }
 
 section.cases-showcase {
-  padding: 74px 100px 50px 100px;
+  padding: 74px 130px 50px 100px;
 }
 
 section.cases-showcase img {
@@ -322,6 +322,52 @@ section.cases-showcase .btn {
   max-width: 300px;
   width: 100%;
   margin-bottom: 60px !important;
+}
+
+/** CSS for sections on case study page **/
+
+section.case-study-intro {
+  padding: 74px 130px 50px 100px;
+}
+
+section.case-study-intro h2 {
+  font-size: 56px;
+  font-weight: 700;
+}
+
+section.case-study-intro p {
+  font-size: 25px;
+}
+
+section.case-study-intro img {
+  width: 100%;
+  max-width: 430px;
+}
+
+section.case-study-challenge {
+  padding: 74px 130px 50px 100px;
+}
+
+section.case-study-challenge h3 {
+  font-size: 42px;
+  font-weight: 700;
+}
+
+section.case-study-challenge p {
+  font-size: 25px;
+}
+
+section.case-study-result {
+  padding: 40px 130px 50px 100px;
+}
+
+section.case-study-result h3 {
+  font-size: 42px;
+  font-weight: 700;
+}
+
+section.case-study-result p {
+  font-size: 25px;
 }
 
 /************************************************

@@ -58,12 +58,12 @@ CSS GENERELLE REGLER
   font-size: 120px;
 }
 
-.no-padding{
+.no-padding {
   padding-left: 0 !important;
   padding-right: 0 !important;
 }
 
-.justify-content{
+.justify-content {
   display: flex;
   justify-content: center;
 }
@@ -282,11 +282,11 @@ CSS REGLER FOR GLOBAL SECTIONS (USED ON MULTIPLY PAGES)
 
 section.schedule-meeting {}
 
+/************************************************
 
-  /************************************************
 CSS REGLER FOR SECTION - CASES OVERVIEW
-*************************************************/
 
+*************************************************/
 
 /** CSS for sections on cases page **/
 
@@ -297,7 +297,7 @@ section.cases-text-introduction {
 
 section.cases-text-introduction h1 {
   font-weight: 700;
-  font-size: 59px;
+  font-size: 49px;
 }
 
 section.cases-text-introduction p {
@@ -348,10 +348,11 @@ CSS REGLER FOR SECTION - CASE STUDY EXAMPLE
 
 section.case-study-intro {
   padding: 74px 130px 50px 100px;
+  color: #3c3c3c;
 }
 
 section.case-study-intro h2 {
-  font-size: 56px;
+  font-size: 49px;
   font-weight: 700;
 }
 
@@ -394,37 +395,78 @@ section.case-study-heroimage img {
   width: 100%;
 }
 
-section.case-study-testimonial{
+section.case-study-testimonial {
   padding: 110px 130px 75px 100px;
   background: #eeeeee url('../images/quote-mark-bg.png');
   background-repeat: no-repeat;
   background-position: left;
 }
 
-section.case-study-testimonial img{
+section.case-study-testimonial img {
   width: 100%;
   max-width: 95px;
 }
 
-section.case-study-testimonial .meta-up{
+section.case-study-testimonial .meta-up {
   display: flex;
   align-items: center;
   color: #3c3c3c;
 }
 
-section.case-study-testimonial .meta-info{
+section.case-study-testimonial .meta-info {
   margin-top: 15px;
   margin-left: 20px;
 }
 
-section.case-study-testimonial .meta-name{
+section.case-study-testimonial .meta-name {
   font-weight: 700;
   margin-bottom: 0;
 }
 
-section.case-study-testimonial .meta-down{
+section.case-study-testimonial .meta-down {
   margin-top: 20px;
 }
+
+/************************************************
+
+CSS REGLER FOR SECTION - PRICING
+
+*************************************************/
+
+section.pricing-text-introduction {
+  padding: 74px 130px 50px 100px;
+  color: #3c3c3c;
+}
+
+section.pricing-text-introduction h1 {
+  font-weight: 700;
+  font-size: 49px;
+}
+
+section.pricing-text-introduction p {
+  font-size: 25px;
+}
+
+/************************************************
+
+CSS REGLER FOR SECTION - SUPPORT
+
+*************************************************/
+
+section.support-text-introduction {
+  padding: 74px 130px 50px 100px;
+  color: #3c3c3c;
+}
+
+section.support-text-introduction h1 {
+  font-weight: 700;
+  font-size: 49px;
+}
+
+section.support-text-introduction p {
+  font-size: 25px;
+}
+
 
 /************************************************
 
@@ -432,7 +474,19 @@ CSS REGLER FOR SECTION - CONTACT
 
 *************************************************/
 
+section.contact-text-introduction {
+  padding: 74px 130px 50px 100px;
+  color: #3c3c3c;
+}
 
+section.contact-text-introduction h1 {
+  font-weight: 700;
+  font-size: 49px;
+}
+
+section.contact-text-introduction p {
+  font-size: 25px;
+}
 
 /************************************************
 

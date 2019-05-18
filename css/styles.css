@@ -282,6 +282,28 @@ CSS REGLER FOR GLOBAL SECTIONS (USED ON MULTIPLY PAGES)
 
 section.schedule-meeting {}
 
+
+/************************************************
+
+  CSS REGLER FOR SECTION - LEARN
+
+*************************************************/
+
+section.learn-text-introduction {
+  padding: 74px 130px 50px 100px;
+  color: #3c3c3c;
+}
+
+section.learn-text-introduction h1 {
+  font-weight: 700;
+  font-size: 49px;
+}
+
+section.learn-text-introduction p {
+  font-size: 25px;
+}
+
+
 /************************************************
 
 CSS REGLER FOR SECTION - CASES OVERVIEW

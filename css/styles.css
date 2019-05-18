@@ -58,16 +58,6 @@ CSS GENERELLE REGLER
   font-size: 120px;
 }
 
-.no-padding{
-  padding-left: 0 !important;
-  padding-right: 0 !important;
-}
-
-.justify-content{
-  display: flex;
-  justify-content: center;
-}
-
 /************************************************
 
 CSS REGLER FOR KNAPPER
@@ -274,20 +264,13 @@ footer .footer-p:hover {
 
 /************************************************
 
-CSS REGLER FOR GLOBAL SECTIONS (USED ON MULTIPLY PAGES)
+CSS REGLER FOR SECTIONS
 
 *************************************************/
 
 /** CSS for schedule meeting section **/
 
 section.schedule-meeting {}
-
-
-/************************************************
-
-CSS REGLER FOR SECTION - CASES OVERVIEW
-
-*************************************************/
 
 /** CSS for sections on cases page **/
 
@@ -341,12 +324,6 @@ section.cases-showcase .btn {
   margin-bottom: 60px !important;
 }
 
-/************************************************
-
-CSS REGLER FOR SECTION - CASE STUDY EXAMPLE
-
-*************************************************/
-
 /** CSS for sections on case study page **/
 
 section.case-study-intro {
@@ -392,48 +369,6 @@ section.case-study-result h3 {
 section.case-study-result p {
   font-size: 25px;
 }
-
-section.case-study-heroimage img {
-  width: 100%;
-}
-
-section.case-study-testimonial{
-  padding: 110px 130px 75px 100px;
-  background: #eeeeee url('../images/quote-mark-bg.png');
-  background-repeat: no-repeat;
-  background-position: left;
-}
-
-section.case-study-testimonial img{
-  width: 100%;
-  max-width: 95px;
-}
-
-section.case-study-testimonial .meta-up{
-  display: flex;
-  align-items: center;
-  color: #3c3c3c;
-}
-
-section.case-study-testimonial .meta-info{
-  margin-top: 15px;
-  margin-left: 20px;
-}
-
-section.case-study-testimonial .meta-name{
-  font-weight: 700;
-  margin-bottom: 0;
-}
-
-section.case-study-testimonial .meta-down{
-  margin-top: 20px;
-}
-
-/************************************************
-
-CSS REGLER FOR SECTION - CONTACT
-
-*************************************************/
 
 /************************************************
 

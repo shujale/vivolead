@@ -381,7 +381,8 @@ section.learn-seminar-introduction p {
 /** Blog sektion - learn **/
 
 section.learn-blog-introduction {
-  padding: 74px 130px 50px 100px;
+  padding: 160px 130px 137px 100px;
+  position: relative;
 }
 
 section.learn-blog-introduction h2 {
@@ -393,6 +394,12 @@ section.learn-blog-introduction h2 {
 section.learn-blog-introduction p {
   font-size: 22px;
   margin-bottom: 39px;
+}
+
+section.learn-blog-introduction img{
+  position: absolute;
+  right: -12px;
+  bottom: -11px;
 }
 
 /************************************************
@@ -416,6 +423,8 @@ section.cases-text-introduction h1 {
 section.cases-text-introduction p {
   font-size: 25px;
 }
+
+/** Cases showcase sektion **/
 
 section.cases-showcase {
   padding: 74px 130px 50px 100px;
@@ -482,6 +491,8 @@ section.case-study-intro img {
   max-width: 430px;
 }
 
+/** Case study sektion - challenge **/
+
 section.case-study-challenge {
   padding: 74px 130px 50px 100px;
 }
@@ -495,6 +506,8 @@ section.case-study-challenge p {
   font-size: 25px;
 }
 
+/** Case study sektion - result **/
+
 section.case-study-result {
   padding: 40px 130px 50px 100px;
 }
@@ -507,6 +520,8 @@ section.case-study-result h3 {
 section.case-study-result p {
   font-size: 25px;
 }
+
+/** Case study sektion - hero image + testimonial **/
 
 section.case-study-heroimage img {
   width: 100%;
@@ -603,6 +618,8 @@ section.contact-text-introduction h1 {
 section.contact-text-introduction p {
   font-size: 25px;
 }
+
+/** members sektion - contact **/
 
 section.contact-members {
   padding: 74px 130px 50px 100px;

@@ -204,6 +204,10 @@ CSS REGLER FOR STICKY NAVIGATION
 
 /** For sticky navigation **/
 
+.sticky-top {
+  margin-bottom: 70px;
+}
+
 .stuck .sticky-top {
   background-color: #54b9a0 !important;
 }
@@ -220,27 +224,26 @@ CSS REGLER FOR STICKY NAVIGATION
   display: inline-block !important;
 }
 
-.stuck .sticky-top .navbar .navbar-right .nav-item .nav-link{
+.stuck .sticky-top .navbar .navbar-right .nav-item .nav-link {
   color: #ffffff;
 }
 
-.stuck .sticky-top .navbar-right .nav-item-reversed .nav-link{
- color: #54b9a0 !important;
+.stuck .sticky-top .navbar-right .nav-item-reversed .nav-link {
+  color: #54b9a0 !important;
 }
 
-.stuck .sticky-top .navbar-right .nav-item{
+.stuck .sticky-top .navbar-right .nav-item {
   background-color: transparent;
   border: 2px solid #ffffff;
 }
 
-.stuck .sticky-top .navbar-right .nav-item-reversed{
+.stuck .sticky-top .navbar-right .nav-item-reversed {
   background-color: #ffffff !important;
   border: 1px solid #ffffff !important;
 }
 
-.stuck .sticky-top .dropdown-toggle::after,
-.stuck .navbar-right .nav-item .dropdown-toggle::after{
-    content: url(../images/arrow-down-white.svg) !important;
+.stuck .sticky-top .dropdown-toggle::after, .stuck .navbar-right .nav-item .dropdown-toggle::after {
+  content: url(../images/arrow-down-white.svg) !important;
 }
 
 /************************************************
@@ -355,6 +358,43 @@ section.learn-text-introduction p {
   font-size: 25px;
 }
 
+/** Seminar sektion - learn **/
+
+section.learn-seminar-introduction {
+  background-image: url('../images/learn-seminar.jpg');
+  padding: 74px 130px 50px 100px;
+}
+
+section.learn-seminar-introduction h2 {
+  font-size: 49px;
+  font-weight: 500;
+  color: #ffffff;
+  margin-bottom: 34px;
+}
+
+section.learn-seminar-introduction p {
+  font-size: 22px;
+  color: #ffffff;
+  margin-bottom: 39px;
+}
+
+/** Blog sektion - learn **/
+
+section.learn-blog-introduction {
+  padding: 74px 130px 50px 100px;
+}
+
+section.learn-blog-introduction h2 {
+  font-size: 49px;
+  font-weight: 500;
+  margin-bottom: 34px;
+}
+
+section.learn-blog-introduction p {
+  font-size: 22px;
+  margin-bottom: 39px;
+}
+
 /************************************************
 
 CSS REGLER FOR SECTION - CASES OVERVIEW
@@ -382,9 +422,9 @@ section.cases-showcase {
 }
 
 section.cases-showcase img {
-  min-width: 300px;
+  width: 100%;
+  max-width: 300px;
   min-height: 350px;
-  border: 1px solid #3c3c3c;
   border-radius: 5px;
   position: relative;
 }
@@ -394,10 +434,12 @@ section.cases-showcase figure {
 }
 
 section.cases-showcase figcaption {
+  background-color: #ffffff;
   position: absolute;
-  bottom: 10px;
+  bottom: -1px;
   min-width: 300px;
-  border-top: 1px solid #3c3c3c;
+  border: 1px solid #3c3c3c;
+  border-radius: 0 0 5px 5px;
 }
 
 section.cases-showcase figcaption h3 {
@@ -414,7 +456,9 @@ section.cases-showcase .btn {
 }
 
 /************************************************
+
 CSS REGLER FOR SECTION - CASE STUDY EXAMPLE
+
 *************************************************/
 
 /** CSS for sections on case study page **/
@@ -558,6 +602,50 @@ section.contact-text-introduction h1 {
 
 section.contact-text-introduction p {
   font-size: 25px;
+}
+
+section.contact-members {
+  padding: 74px 130px 50px 100px;
+}
+
+section.contact-members .member-container {
+  margin-bottom: 141px;
+  position: relative;
+}
+
+section.contact-members .member-container .member-image {
+  max-width: 300px;
+  width: 100%;
+}
+
+section.contact-members .member-container .member-soc {
+  margin-top: 10px;
+  position: absolute;
+  top: 380px;
+}
+
+section.contact-members .member-container .member-info {
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+
+section.contact-members .member-container .member-info .member-name {
+  font-weight: 700;
+  font-size: 25px;
+  margin-bottom: 0;
+}
+
+section.contact-members .member-container .member-info .member-position {
+  font-size: 20px;
+  font-style: italic;
+}
+
+section.contact-members .member-container .member-contact-info p {
+  font-family: 'Raleway', sans-serif !important;
+}
+
+section.contact-members .member-container .member-contact-info a {
+  color: #54b9a0;
 }
 
 /************************************************

@@ -19,8 +19,13 @@
 <body>
   <main>
     <!-- NAVIGATION MENU START -->
-    <nav class="navbar navbar-expand-lg">
-      <a class="navbar-brand" href="index.html"><img src="./images/vl-logo.png" class="logo" alt="Vivolead logo"/></a>
+    <!-- NAVIGATION MENU START -->
+    <span class="position-absolute trigger"><!-- hidden trigger to apply 'stuck' styles --></span>
+    <nav class="navbar navbar-expand-lg sticky-top">
+      <a class="navbar-brand" href="index.html" class="logo">
+        <img src="./images/vl-logo.png" class="primary-logo" alt="Vivolead logo"/>
+        <img src="./images/vl-logo-white.png" class="secondary-logo" alt="Vivolead logo" style="display: none;"/>
+      </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -131,6 +136,110 @@
     <!-- CONTACT INTRODUCTION SECTION END -->
 
 
+    <!-- CONTACT MEMBER SECTION START -->
+    <section class="contact-members">
+      <div class="container">
+        <!-- First row -->
+        <div class="row">
+          <!-- Member start -->
+          <div class="col-md-4 col-sm-12">
+            <div class="member-container">
+              <!-- Member image -->
+              <img src="./images/img-henrik.jpg" alt="Henrik Nielsen" class="member-image" />
+              <!-- Member info (name & position) -->
+              <div class="member-info">
+                <h3 class="member-name">Henrik Nielsen</h3>
+                <h4 class="member-position">CEO</h4>
+              </div>
+              <!-- Member contact info -->
+              <div class="member-contact-info">
+                <p>
+                  Email: <a href="mailto:hn@vivolead.com">hn@vivolead.com</a>
+                  <br /> Tlf: <a href="tel:+4512345678">+45 1234 5678</a>
+                </p>
+              </div>
+              <!-- Member social media -->
+              <a href="#" title="LinkedIn"><img src="./images/linkedin-icon.png" class="member-soc" alt="LinkedIn" /></a>
+            </div>
+          </div>
+          <!-- Member end -->
+          <!-- Member start -->
+          <div class="col-md-4 col-sm-12">
+            <div class="member-container">
+              <!-- Member image -->
+              <img src="./images/img-morten.jpg" alt="Morten Holst" class="member-image" />
+              <!-- Member info (name & position) -->
+              <div class="member-info">
+                <h3 class="member-name">Morten Holst</h3>
+                <h4 class="member-position">Chairman of The Board</h4>
+              </div>
+              <!-- Member contact info -->
+              <div class="member-contact-info">
+                <p>
+                  Email: <a href="mh@vivolead.com">mh@vivolead.com</a>
+                </p>
+              </div>
+              <!-- Member social media -->
+              <a href="#" title="LinkedIn"><img src="./images/linkedin-icon.png"  class="member-soc" alt="LinkedIn" /></a>
+            </div>
+          </div>
+          <!-- Member end -->
+        </div>
+        <!-- First row end -->
+
+        <!-- Second row start -->
+        <div class="row">
+          <!-- Member -->
+          <div class="col-md-4 col-sm-12">
+            <div class="member-container">
+              <!-- Member image -->
+              <img src="./images/img-jesper.jpg" alt="Jesper Buch" class="member-image" />
+              <!-- Member info (name & position) -->
+              <div class="member-info">
+                <h3 class="member-name">Jesper Buch</h3>
+                <h4 class="member-position">Marketing Manager</h4>
+              </div>
+            </div>
+          </div>
+          <!-- Member end -->
+          <!-- Member start -->
+          <div class="col-md-4 col-sm-12">
+            <div class="member-container">
+              <!-- Member image -->
+              <img src="./images/img-thomas.jpg" alt="Thomas Lauridsen" class="member-image" />
+              <!-- Member info (name & position) -->
+              <div class="member-info">
+                <h3 class="member-name">Thomas Lauridsen</h3>
+                <h4 class="member-position">Sales Manager</h4>
+              </div>
+            </div>
+          </div>
+          <!-- Member end -->
+          <!-- Member start -->
+          <div class="col-md-4 col-sm-12">
+            <div class="member-container">
+              <!-- Member image -->
+              <img src="./images/img-vacant.jpg" alt="Vacant position / intern" class="member-image" />
+              <!-- Member info (name & position) -->
+              <div class="member-info">
+                <h3 class="member-name">Vacant position / intern</h3>
+              </div>
+              <!-- Member contact info -->
+              <div class="member-contact-info">
+                <p>
+                  Email: <a href="info@vivolead.com">info@vivolead.com</a>
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- Member end -->
+        </div>
+        <!-- Second row end -->
+      </div>
+    </section>
+    <!-- CONTACT MEMBER SECTION END -->
+
+
 
 
 
@@ -180,7 +289,7 @@
           </div>
           <!-- Fourth footer column -->
           <div class="col-sm-12 col-md-3 col-lg-3">
-            <img src="./images/vl-logo.png" class="footer-logo" alt="Vivolead logo" />
+            <img src="./images/vl-logo-white.png" class="footer-logo" alt="Vivolead logo" />
             <p class="footer-p">
               VivoLead
               <br /> Denmark EU
@@ -196,7 +305,8 @@
   </main>
 
   <!-- JS -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+  <script src="js/functions.js"></script>
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
 

@@ -19,8 +19,12 @@
 <body>
   <main>
     <!-- NAVIGATION MENU START -->
-    <nav class="navbar navbar-expand-lg">
-      <a class="navbar-brand" href="index.html"><img src="./images/vl-logo.png" class="logo" alt="Vivolead logo"/></a>
+    <span class="position-absolute trigger"><!-- hidden trigger to apply 'stuck' styles --></span>
+    <nav class="navbar navbar-expand-lg sticky-top">
+      <a class="navbar-brand" href="index.html" class="logo">
+        <img src="./images/vl-logo.png" class="primary-logo" alt="Vivolead logo"/>
+        <img src="./images/vl-logo-white.png" class="secondary-logo" alt="Vivolead logo" style="display: none;"/>
+      </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -138,7 +142,7 @@
           <!-- Image with figcaption -->
           <div class="col-md-4 col-sm-6">
             <figure>
-              <img src="#" alt="image" class="showcase-img" />
+              <img src="./images/case-1.jpg" alt="Case 1" class="showcase-img" />
               <figcaption>
                 <h3>Arla Foods (2019)</h3></figcaption>
             </figure>
@@ -147,7 +151,7 @@
           <!-- Image with figcaption -->
           <div class="col-md-4 col-sm-6">
             <figure>
-              <img src="#" alt="image" class="showcase-img" />
+              <img src="./images/case-2.jpg" alt="Case 2" class="showcase-img" />
               <figcaption>
                 <h3>Arla Foods (2019)</h3></figcaption>
             </figure>
@@ -156,7 +160,7 @@
           <!-- Image with figcaption -->
           <div class="col-md-4 col-sm-6">
             <figure>
-              <img src="#" alt="image" class="showcase-img" />
+              <img src="./images/case-3.jpg" alt="Case 3" class="showcase-img" />
               <figcaption>
                 <h3>Arla Foods (2019)</h3></figcaption>
             </figure>
@@ -168,7 +172,7 @@
           <!-- Image with figcaption -->
           <div class="col-md-4 col-sm-6">
             <figure>
-              <img src="#" alt="image" class="showcase-img" />
+              <img src="./images/case-4.jpg" alt="Case 4" class="showcase-img" />
               <figcaption>
                 <h3>Arla Foods (2019)</h3></figcaption>
             </figure>
@@ -177,7 +181,7 @@
           <!-- Image with figcaption -->
           <div class="col-md-4 col-sm-6">
             <figure>
-              <img src="#" alt="image" class="showcase-img" />
+              <img src="./images/case-1.jpg" alt="Case 5" class="showcase-img" />
               <figcaption>
                 <h3>Arla Foods (2019)</h3></figcaption>
             </figure>
@@ -186,7 +190,7 @@
           <!-- Image with figcaption -->
           <div class="col-md-4 col-sm-6">
             <figure>
-              <img src="#" alt="image" class="showcase-img" />
+              <img src="./images/case-2.jpg" alt="Case 6" class="showcase-img" />
               <figcaption>
                 <h3>Arla Foods (2019)</h3></figcaption>
             </figure>
@@ -249,7 +253,7 @@
           </div>
           <!-- Fourth footer column -->
           <div class="col-sm-12 col-md-3 col-lg-3">
-            <img src="./images/vl-logo.png" class="footer-logo" alt="Vivolead logo" />
+            <img src="./images/vl-logo-white.png" class="footer-logo" alt="Vivolead logo" />
             <p class="footer-p">
               VivoLead
               <br /> Denmark EU
@@ -265,7 +269,8 @@
   </main>
 
   <!-- JS -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+  <script src="js/functions.js"></script>
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
 

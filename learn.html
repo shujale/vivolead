@@ -19,8 +19,12 @@
 <body>
   <main>
     <!-- NAVIGATION MENU START -->
-    <nav class="navbar navbar-expand-lg">
-      <a class="navbar-brand" href="index.html"><img src="./images/vl-logo.png" class="logo" alt="Vivolead logo"/></a>
+    <span class="position-absolute trigger"><!-- hidden trigger to apply 'stuck' styles --></span>
+    <nav class="navbar navbar-expand-lg sticky-top">
+      <a class="navbar-brand" href="index.html" class="logo">
+        <img src="./images/vl-logo.png" class="primary-logo" alt="Vivolead logo"/>
+        <img src="./images/vl-logo-white.png" class="secondary-logo" alt="Vivolead logo" style="display: none;"/>
+      </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -132,6 +136,39 @@
     </section>
     <!-- LEARN INTRODUCTION SECTION END -->
 
+    <!-- LEARN SEMINAR SECTION START -->
+    <section class="learn-seminar-introduction">
+      <div class="container">
+        <div class="row text-center">
+          <div class="col-md-12 col-sm-12">
+            <h2>Seminar</h2>
+            <p>
+              This page will be updated regularly with information on upcoming seminars, where we present Vivolead and the benefits it has to digitize your lead handling.
+            </p>
+            <a href="#" class="btn btn-secondary">Check out the seminars</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- LEARN SEMINAR SECTION END -->
+
+
+    <!-- LEARN SEMINAR SECTION START -->
+    <section class="learn-blog-introduction">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 col-sm-12">
+            <h2>Blog</h2>
+            <p>
+              Do you want to better at handling your follow-ups, customer service and gain better results at trade shows? We have collected valuable information and a collection of tips & tricks that might help in your business.
+            </p>
+            <a href="#" class="btn btn-primary">Read our blog</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- LEARN SEMINAR SECTION END -->
+
 
 
 
@@ -182,7 +219,7 @@
           </div>
           <!-- Fourth footer column -->
           <div class="col-sm-12 col-md-3 col-lg-3">
-            <img src="./images/vl-logo.png" class="footer-logo" alt="Vivolead logo" />
+            <img src="./images/vl-logo-white.png" class="footer-logo" alt="Vivolead logo" />
             <p class="footer-p">
               VivoLead
               <br /> Denmark EU
@@ -198,7 +235,8 @@
   </main>
 
   <!-- JS -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+  <script src="js/functions.js"></script>
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
 

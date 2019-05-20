@@ -19,8 +19,12 @@
 <body>
   <main>
     <!-- NAVIGATION MENU START -->
-    <nav class="navbar navbar-expand-lg">
-      <a class="navbar-brand" href="index.html"><img src="./images/vl-logo.png" class="logo" alt="Vivolead logo"/></a>
+    <span class="position-absolute trigger"><!-- hidden trigger to apply 'stuck' styles --></span>
+    <nav class="navbar navbar-expand-lg sticky-top">
+      <a class="navbar-brand" href="index.html" class="logo">
+        <img src="./images/vl-logo.png" class="primary-logo" alt="Vivolead logo"/>
+        <img src="./images/vl-logo-white.png" class="secondary-logo" alt="Vivolead logo" style="display: none;"/>
+      </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -173,30 +177,30 @@
 
 
     <!-- TESTIMONIAL - CASE STUDY SECTION START -->
-   <section class="case-study-testimonial">
-     <div class="container justify-content">
-       <div class="row">
-         <div class="col-md-12">
-           <!-- Person's name + occupation -->
-           <div class="meta-up">
-             <img src="./images/random-dude-img.png" alt="Martin Sørensen" />
-             <div class="meta-info">
-               <h3 class="meta-name">Anders Hue</h3>
-               <p class="meta-position">Sales Manager, Arla Foods</p>
-             </div>
-           </div>
-           <!-- Person's testimonial text -->
-           <div class="meta-down">
-             <div class="meta-testimonial-text">
-               <h3>"VivoLead just made our life simple and easy"</h3>
-               <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod </p>
-             </div>
-           </div>
-         </div>
-       </div>
-     </div>
-   </section>
-   <!-- TESTIMONIAL - CASE STUDY SECTION END -->
+    <section class="case-study-testimonial">
+      <div class="container justify-content">
+        <div class="row">
+          <div class="col-md-12">
+            <!-- Person's name + occupation -->
+            <div class="meta-up">
+              <img src="./images/random-dude-img.png" alt="Martin Sørensen" />
+              <div class="meta-info">
+                <h3 class="meta-name">Anders Hue</h3>
+                <p class="meta-position">Sales Manager, Arla Foods</p>
+              </div>
+            </div>
+            <!-- Person's testimonial text -->
+            <div class="meta-down">
+              <div class="meta-testimonial-text">
+                <h3>"VivoLead just made our life simple and easy"</h3>
+                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- TESTIMONIAL - CASE STUDY SECTION END -->
 
 
     <!-- SCHEDULE A MEETING SECTION START -->
@@ -261,7 +265,8 @@
   </main>
 
   <!-- JS -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+  <script src="js/functions.js"></script>
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
 

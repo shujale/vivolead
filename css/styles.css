@@ -123,7 +123,11 @@ CSS REGLER FOR BILLEDFORMAT (JPG, PNG, SVG) OG LOGO
 
 *************************************************/
 
-.logo {
+.primary-logo {
+  max-width: 182px;
+}
+
+.secondary-logo {
   max-width: 182px;
 }
 
@@ -145,15 +149,17 @@ CSS REGLER FOR NAVIGATION
 *************************************************/
 
 .navbar {
-  min-height: 100px;
+  min-height: 80px;
   padding-left: 0 !important;
   -webkit-box-align: baseline !important;
   -ms-flex-align: baseline !important;
   align-items: baseline !important;
+  transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
 }
 
 .navbar .navbar-brand {
-  background-color: #54b9a0;
   padding: 16px 24px;
 }
 
@@ -188,6 +194,53 @@ CSS REGLER FOR NAVIGATION
 .navbar .navbar-right .nav-item-reversed {
   background-color: #54b9a0 !important;
   border: 1px solid #54b9a0 !important;
+}
+
+/************************************************
+
+CSS REGLER FOR STICKY NAVIGATION
+
+*************************************************/
+
+/** For sticky navigation **/
+
+.stuck .sticky-top {
+  background-color: #54b9a0 !important;
+}
+
+.stuck .sticky-top .nav-item .nav-link {
+  color: #ffffff !important;
+}
+
+.stuck .sticky-top .primary-logo {
+  display: none;
+}
+
+.stuck .sticky-top .secondary-logo {
+  display: inline-block !important;
+}
+
+.stuck .sticky-top .navbar .navbar-right .nav-item .nav-link{
+  color: #ffffff;
+}
+
+.stuck .sticky-top .navbar-right .nav-item-reversed .nav-link{
+ color: #54b9a0 !important;
+}
+
+.stuck .sticky-top .navbar-right .nav-item{
+  background-color: transparent;
+  border: 2px solid #ffffff;
+}
+
+.stuck .sticky-top .navbar-right .nav-item-reversed{
+  background-color: #ffffff !important;
+  border: 1px solid #ffffff !important;
+}
+
+.stuck .sticky-top .dropdown-toggle::after,
+.stuck .navbar-right .nav-item .dropdown-toggle::after{
+    content: url(../images/arrow-down-white.svg) !important;
 }
 
 /************************************************
@@ -282,7 +335,6 @@ CSS REGLER FOR GLOBAL SECTIONS (USED ON MULTIPLY PAGES)
 
 section.schedule-meeting {}
 
-
 /************************************************
 
   CSS REGLER FOR SECTION - LEARN
@@ -302,7 +354,6 @@ section.learn-text-introduction h1 {
 section.learn-text-introduction p {
   font-size: 25px;
 }
-
 
 /************************************************
 
@@ -488,7 +539,6 @@ section.support-text-introduction h1 {
 section.support-text-introduction p {
   font-size: 25px;
 }
-
 
 /************************************************
 

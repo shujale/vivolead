@@ -2,191 +2,504 @@
 <html>
 
 <head>
-  <!-- Meta -->
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <title> Vivolead - Lead Management made easy</title>
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title> Vivolead - Lead Management made easy</title>
 
-  <!-- CSS -->
-  <link rel="stylesheet" href="css/reset.css" />
-  <link rel="stylesheet" href="css/styles.css" />
-  <link href="https://fonts.googleapis.com/css?family=Raleway:400,500,700" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,500,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 </head>
 
 <body>
-  <main>
-    <!-- NAVIGATION MENU START -->
-    <span class="position-absolute trigger"><!-- hidden trigger to apply 'stuck' styles --></span>
-    <nav class="navbar navbar-expand-lg sticky-top">
-      <a class="navbar-brand" href="index.html" class="logo">
+    <main>
+        <!-- NAVIGATION MENU START -->
+        <span class="position-absolute trigger"><!-- hidden trigger to apply 'stuck' styles --></span>
+        <nav class="navbar navbar-expand-lg sticky-top">
+            <a class="navbar-brand" href="index.html" class="logo">
         <img src="./images/vl-logo.png" class="primary-logo" alt="Vivolead logo"/>
         <img src="./images/vl-logo-white.png" class="secondary-logo" alt="Vivolead logo" style="display: none;"/>
       </a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
 
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <!-- Left side link items -->
-        <ul class="navbar-nav mr-auto">
-          <!-- Nav link with dropdrown -->
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="learn.html" id="navbarDropdown" role="button" data-hover="dropdown">
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <!-- Left side link items -->
+                <ul class="navbar-nav mr-auto">
+                    <!-- Nav link with dropdrown -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="learn.html" id="navbarDropdown" role="button" data-hover="dropdown">
           Learn
         </a>
-            <div class="dropdown-menu row" aria-labelledby="navbarDropdown">
-              <div class="dropdown-left col-sm-6">
-                <a class="dropdown-item" href="#">Seminar</a>
-                <a class="dropdown-item" href="#">Blog</a>
-                <a class="dropdown-item" href="#">Videos</a>
-                <a class="dropdown-item" href="#">Setting up</a>
-                <a class="dropdown-item" href="#">Brochure</a>
-              </div>
-              <div class="dropdown-divider"></div>
-              <div class="dropdown-right col-sm-6">
-                <a class="dropdown-item" href="#">Customization</a>
-                <a class="dropdown-item" href="#">API-module</a>
-                <a class="dropdown-item" href="#">Comparison</a>
-              </div>
-            </div>
-          </li>
-          <!-- Nav link with dropdrown -->
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="cases.html" id="navbarDropdown" role="button"  data-hover="dropdown">
+                        <div class="dropdown-menu row" aria-labelledby="navbarDropdown">
+                            <div class="dropdown-left col-sm-6">
+                                <a class="dropdown-item" href="#">Seminar</a>
+                                <a class="dropdown-item" href="#">Blog</a>
+                                <a class="dropdown-item" href="#">Videos</a>
+                                <a class="dropdown-item" href="#">Setting up</a>
+                                <a class="dropdown-item" href="#">Brochure</a>
+                            </div>
+                            <div class="dropdown-divider"></div>
+                            <div class="dropdown-right col-sm-6">
+                                <a class="dropdown-item" href="#">Customization</a>
+                                <a class="dropdown-item" href="#">API-module</a>
+                                <a class="dropdown-item" href="#">Comparison</a>
+                            </div>
+                        </div>
+                    </li>
+                    <!-- Nav link with dropdrown -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="cases.html" id="navbarDropdown" role="button" data-hover="dropdown">
           Cases
         </a>
-            <div class="dropdown-menu row" aria-labelledby="navbarDropdown">
-              <div class="dropdown-left col-sm-6">
-                <a class="dropdown-item" href="#">Arla Foods</a>
-                <a class="dropdown-item" href="#">Grundfos</a>
-                <a class="dropdown-item" href="#">Kärcher</a>
-                <a class="dropdown-item" href="#">Siemens</a>
-                <a class="dropdown-item" href="#">Esvagt</a>
-              </div>
-              <div class="dropdown-divider"></div>
-              <div class="dropdown-right col-sm-6">
-                <a class="dropdown-item" href="#">Asuzu</a>
-                <a class="dropdown-item" href="#">Karl's bath</a>
-                <a class="dropdown-item" href="#">Impact A/S</a>
-              </div>
-            </div>
-          </li>
-          <!-- Nav link without dropdown -->
-          <li class="nav-item">
-            <a class="nav-link" href="pricing.html">Pricing</a>
-          </li>
-          <!-- Nav link with dropdrown -->
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="support.html" id="navbarDropdown" role="button"  data-hover="dropdown">
+                        <div class="dropdown-menu row" aria-labelledby="navbarDropdown">
+                            <div class="dropdown-left col-sm-6">
+                                <a class="dropdown-item" href="#">Arla Foods</a>
+                                <a class="dropdown-item" href="#">Grundfos</a>
+                                <a class="dropdown-item" href="#">Kärcher</a>
+                                <a class="dropdown-item" href="#">Siemens</a>
+                                <a class="dropdown-item" href="#">Esvagt</a>
+                            </div>
+                            <div class="dropdown-divider"></div>
+                            <div class="dropdown-right col-sm-6">
+                                <a class="dropdown-item" href="#">Asuzu</a>
+                                <a class="dropdown-item" href="#">Karl's bath</a>
+                                <a class="dropdown-item" href="#">Impact A/S</a>
+                            </div>
+                        </div>
+                    </li>
+                    <!-- Nav link without dropdown -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="pricing.html">Pricing</a>
+                    </li>
+                    <!-- Nav link with dropdrown -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="support.html" id="navbarDropdown" role="button" data-hover="dropdown">
           Support
         </a>
-            <div class="dropdown-menu noextra row" aria-labelledby="navbarDropdown">
-              <div class="dropdown-left">
-                <a class="dropdown-item" href="#">FAQ</a>
-                <a class="dropdown-item" href="#">Ask a question</a>
-              </div>
-            </div>
-          </li>
-          <!-- Nav link without dropdown -->
-          <li class="nav-item">
-            <a class="nav-link" href="contact.html">Contact</a>
-          </li>
-        </ul>
-        <!-- Left side link items -->
-        <ul class="navbar-nav navbar-right">
-          <!-- Nav link with dropdown -->
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <div class="dropdown-menu noextra row" aria-labelledby="navbarDropdown">
+                            <div class="dropdown-left">
+                                <a class="dropdown-item" href="#">FAQ</a>
+                                <a class="dropdown-item" href="#">Ask a question</a>
+                            </div>
+                        </div>
+                    </li>
+                    <!-- Nav link without dropdown -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+                <!-- Left side link items -->
+                <ul class="navbar-nav navbar-right">
+                    <!-- Nav link with dropdown -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           <img src="./images/translate.svg" class="translate-svg">EN
         </a>
-            <div class="dropdown-menu noextra row" aria-labelledby="navbarDropdown">
-              <div class="dropdown-left">
-                <a class="dropdown-item" href="#">DA</a>
-                <a class="dropdown-item" href="#">DE</a>
-              </div>
+                        <div class="dropdown-menu noextra row" aria-labelledby="navbarDropdown">
+                            <div class="dropdown-left">
+                                <a class="dropdown-item" href="#">DA</a>
+                                <a class="dropdown-item" href="#">DE</a>
+                            </div>
+                        </div>
+                    </li>
+                    <!-- Nav link without dropdown -->
+                    <li class="nav-item nav-item-reversed">
+                        <a class="nav-link" href="#">Log in</a>
+                    </li>
+                </ul>
             </div>
-          </li>
-          <!-- Nav link without dropdown -->
-          <li class="nav-item nav-item-reversed">
-            <a class="nav-link" href="#">Log in</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
-    <!-- NAVIGATION MENU END -->
+        </nav>
+        <!-- NAVIGATION MENU END -->
+
+        <!-- FRONTPAGE PROMISE SECTION START -->
+        <section class="promise-intro">
+            <div class="container">
+                <div class="row">
+                    <!-- Text + CTA btn -->
+                    <div class="col-md-5 col-sm-12">
+                        <h1>Be successful at every trade show</h1>
+                        <p>A customized system to attend your needs on a tradeshow all while making the lead follow-up process easy, effective and cost-saving.</p>
+                        <a href="" class="btn btn-primary btn-promise">Start free 30 day Trial NOW</a>
+                        <p class="btn-promise-CTAtext">Ater that 99 €/month for Beginer package solution </p>
+                    </div>
+                    <div class="col-md-5 col-sm-12">
+                        <!-- Images -->
+                        <img id="promise-img" src="./images/Promise-devices-mockups.png" alt="Case study image" />
+                    </div>
+                    <div class="col-md-2 col-sm-12">
+                        <!-- Downloed btn  (FÅ SNAK MED SHARMARKE OM centring her) -->
+                        <div class="appel">
+                            <a href="#" title="app store" target="_blank">
+                                <p id="app-btn">App Store</p>
+                            </a>
+                        </div>
+                        <div class="google">
+                            <a href="#" title="goole play" target="_blank">
+                                <p id="app-btn"> Google Play</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- FRONTPAGE PROMISE SECTION END -->
+        
+        <!-- OUR CLIENTS SECTION START -->
+        <section class="frontpage-ourclients">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                    <h2 class="our-clients-frontpage"><b>Who have purchased Vivolead</b></h2>
+                    </div>
+                    <div class="col-md-6" style="padding: 15px">
+                        <button onclick="myFunction()" id="myBtn">Show All</button>
+                    </div>
+                </div>
+                <!-- Client Logo display -->
+                <div class="row-client-logo">
+                    <div class="col-md-12">
+                        <ul class="client-logo-front">
+                            <li><a href="#home"><img src="./images/logo/DESMI-1.png" alt="Desmis logo"></a></li>
+                            <li><a href="#home"><img src="./images/logo/arla-foods-logo.png" alt="arla-foods logo"></a></li>
+                            <li><a href="#home"><img src="./images/logo/beumer600.png" alt="beumer600 logo"></a></li>
+                            <li><a href="#home"><img src="./images/logo/Grundfos_logo.png" alt="Grundfos logo"></a></li>
+                            <li><a href="#home"><img src="./images/logo/kaercher_logo.png" alt="kaercher logo"></a></li>
+                            <li><a href="#home"><img src="./images/logo/Siemens_Gamesa_logo..png" alt="Siemens_Gamesa logo"></a></li>
+                            <span id="dots"></span>
+                            <span id="more">
+                        <li><a href="#home"><img src="./images/logo/logo.png" alt="Desmis logo"></a></li>
+                         <li><a href="#home"><img src="./images/logo/Grundfos_logo.png" alt="Grundfos logo"></a></li>
+                        <li><a href="#home"><img src="./images/logo/kaercher_logo.png" alt="kaercher logo"></a></li>
+                        <li><a href="#home"><img src="./images/logo/arla-foods-logo.png" alt="arla-foods logo"></a></li>
+                        <li><a href="#home"><img src="./images/logo/DESMI-1.png" alt="Desmis logo"></a></li>
+                        <li><a href="#home"><img src="./images/logo/arla-foods-logo.png" alt="arla-foods logo"></a></li>
+                        <li><a href="#home"><img src="./images/logo/DESMI-1.png" alt="Desmis logo"></a></li>
+                         <li><a href="#home"><img src="./images/logo/Grundfos_logo.png" alt="Desmis logo"></a></li>  
+                        <li><a href="#home"><img src="./images/logo/DESMI-1.png" alt="Desmis logo"></a></li>
+                        <li><a href="#home"><img src="./images/logo/arla-foods-logo.png" alt="arla-foods logo"></a></li>
+                        <li><a href="#home"><img src="./images/logo/DESMI-1.png" alt="Desmis logo"></a></li>
+                         <li><a href="#home"><img src="./images/logo/kaercher_logo.png" alt="kaercher logo"></a></li>
+                        <li><a href="#home"><img src="./images/logo/kaercher_logo.png" alt="kaercher logo"></a></li>
+                        <li><a href="#home"><img src="./images/logo/DESMI-1.png" alt="Desmis logo"></a></li>
+                         <li><a href="#home"><img src="./images/logo/Grundfos_logo.png" alt="Grundfos logo"></a></li>    
+                    </span>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- OUR CLIENTS SECTION SLUT -->
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+
+<section class="promise-intro">
+            <div class="container">
+                <div class="row">
+                    <!-- Text + CTA btn -->
+                    <div class="col-md-6 col-sm-12">
+                        <h2>Optimise your lead handling and track your Trade show results in 4 easy steps</h2>
+                        <p>VivoLead is an easy follow-up, administration, and overview over your clients and leads at any trade show – It is Lead Management Made Easy. - Our goal is to help our partners, customers and users to make the most of their tradeshow experience and to give them the chance to increase their ROI. We do this by offering the missing link in the trade show industry – the overview and understanding of your leads collected at the trade show.</p>
+                        <a href="" class="btn btn-primary btn-promise">Read more about your options</a>
+                    </div>
+                    <div class="col-md-2">
+                        <!-- Images -->
+                        <img id="promise-img" src="./images/Promise-devices-mockups.png" alt="Case study image" />
+                    </div>
+                    <div class="col-md-2">
+                        <!-- Images -->
+                        <img id="promise-img" src="./images/Promise-devices-mockups.png" alt="Case study image" />
+                    </div>
+                    <div class="col-md-2">
+                        <!-- Images -->
+                        <img id="promise-img" src="./images/Promise-devices-mockups.png" alt="Case study image" />
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- FRONTPAGE PROMISE SECTION END -->
 
 
 
 
-    <a href="" class="btn btn-primary">Learn a lot more</a>
-    <a href="" class="btn btn-secondary">Example</a>
 
 
 
 
 
-    <!-- FOOTER MENU START -->
-    <footer>
-      <div class="container">
-        <div class="row">
-          <!-- First footer column -->
-          <div class="col-sm-12 col-md-3 col-lg-3">
-            <h5 class="footer-title">Order</h5>
-            <ul>
-              <li><a href="#" class="footer-p">Free trial</a></li>
-              <li><a href="#" class="footer-p">Pricing</a></li>
-              <li><a href="#" class="footer-p">Payments</a></li>
-              <li><a href="#" class="footer-p">App modifications</a></li>
-              <li><a href="#" class="footer-p">CRM integrations</a></li>
-            </ul>
-          </div>
-          <!-- Second footer column -->
-          <div class="col-sm-12 col-md-3 col-lg-3">
-            <h5 class="footer-title">Information</h5>
-            <ul>
-              <li><a href="#" class="footer-p">About us</a></li>
-              <li><a href="#" class="footer-p">The Vivolead story</a></li>
-              <li><a href="#" class="footer-p">Software subscription terms</a></li>
-              <li><a href="#" class="footer-p">App user license</a></li>
-              <li><a href="#" class="footer-p">Privacy and Cookies</a></li>
-              <li><a href="#" class="footer-p">Jobs</a></li>
-            </ul>
-          </div>
-          <!-- Third footer column -->
-          <div class="col-sm-12 col-md-3 col-lg-3">
-            <h5 class="footer-title">Help</h5>
-            <ul>
-              <li><a href="#" class="footer-p">Contact us</a></li>
-              <li><a href="#" class="footer-p">Online help & videos</a></li>
-              <li><a href="#" class="footer-p">FAQ</a></li>
-              <li><a href="#" class="footer-p">System status</a></li>
-              <li><a href="#" class="footer-p">Terms of site</a></li>
-            </ul>
-          </div>
-          <!-- Fourth footer column -->
-          <div class="col-sm-12 col-md-3 col-lg-3">
-            <img src="./images/vl-logo-white.png" class="footer-logo" alt="Vivolead logo" />
-            <p class="footer-p">
-              VivoLead
-              <br /> Denmark EU
-              <br />Phone: +45 25 55 50 95
-              <br /> <br />Cvr. no. 38361783
-            </p>
-          </div>
-        </div>
-      </div>
-    </footer>
-    <!-- FOOTER MENU END -->
 
-  </main>
 
-  <!-- JS -->
-  <script src="js/functions.js"></script>
-  <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section class="service-frontpage">
+            <div class="container">
+                <div class="row">
+                    <!-- Text + CTA btn -->
+                    <div class="col-md-12 col-sm-12">
+                        <h2>Optimise your lead handling and track your Trade show results in 4 easy steps</h2>
+                        <p>VivoLead is an easy follow-up, administration, and overview over your clients and leads at any trade show – It is Lead Management Made Easy. - Our goal is to help our partners, customers and users to make the most of their tradeshow experience and to give them the chance to increase their ROI. We do this by offering the missing link in the trade show industry – the overview and understanding of your leads collected at the trade show.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- FRONTPAGE PROMISE SECTION END -->
+
+
+<section class="promise-intro">
+            <div class="container">
+                <div class="row">
+                    <!-- Text + CTA btn -->
+                    
+                    
+                    
+  <div class="column">
+    <div class="card">
+      <h3>Business</h3>
+      <h3>443€/month</h3>
+      <p>For companies with a high frequency of trade show activities and a high degree of customization needs.</p>
+      <p>Some text</p>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <h3>Pro</h3>
+      <h3>279€/month</h3>
+      <p>For mid to large sized companies who require customization and who has more users.</p>
+      <p>Some text</p>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+      <h3>Starter</h3>
+      <h3>99 €/month</h3>
+      <p>For companies who can use VivoLead out of the box as it is.</p>
+      <p>Some text</p>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+      <h3>FREE</h3>
+      <h3>30 Days Trial</h3>
+      <p>The free plan is for you who want to test VivoLead for the first time.</p>
+      <p>Some text</p>
+    </div>
+  </div>
+</div>
+                    
+                    
+                    
+                    
+                    
+                </div>
+        </section>
+        <!-- FRONTPAGE PROMISE SECTION END -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <a href="" class="btn btn-primary">Learn a lot more</a>
+        <a href="" class="btn btn-secondary">Example</a>
+
+
+
+
+
+        <!-- FOOTER MENU START -->
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <!-- First footer column -->
+                    <div class="col-sm-12 col-md-3 col-lg-3">
+                        <h5 class="footer-title">Order</h5>
+                        <ul>
+                            <li><a href="#" class="footer-p">Free trial</a></li>
+                            <li><a href="#" class="footer-p">Pricing</a></li>
+                            <li><a href="#" class="footer-p">Payments</a></li>
+                            <li><a href="#" class="footer-p">App modifications</a></li>
+                            <li><a href="#" class="footer-p">CRM integrations</a></li>
+                        </ul>
+                    </div>
+                    <!-- Second footer column -->
+                    <div class="col-sm-12 col-md-3 col-lg-3">
+                        <h5 class="footer-title">Information</h5>
+                        <ul>
+                            <li><a href="#" class="footer-p">About us</a></li>
+                            <li><a href="#" class="footer-p">The Vivolead story</a></li>
+                            <li><a href="#" class="footer-p">Software subscription terms</a></li>
+                            <li><a href="#" class="footer-p">App user license</a></li>
+                            <li><a href="#" class="footer-p">Privacy and Cookies</a></li>
+                            <li><a href="#" class="footer-p">Jobs</a></li>
+                        </ul>
+                    </div>
+                    <!-- Third footer column -->
+                    <div class="col-sm-12 col-md-3 col-lg-3">
+                        <h5 class="footer-title">Help</h5>
+                        <ul>
+                            <li><a href="#" class="footer-p">Contact us</a></li>
+                            <li><a href="#" class="footer-p">Online help & videos</a></li>
+                            <li><a href="#" class="footer-p">FAQ</a></li>
+                            <li><a href="#" class="footer-p">System status</a></li>
+                            <li><a href="#" class="footer-p">Terms of site</a></li>
+                        </ul>
+                    </div>
+                    <!-- Fourth footer column -->
+                    <div class="col-sm-12 col-md-3 col-lg-3">
+                        <img src="./images/vl-logo-white.png" class="footer-logo" alt="Vivolead logo" />
+                        <p class="footer-p">
+                            VivoLead
+                            <br /> Denmark EU
+                            <br />Phone: +45 25 55 50 95
+                            <br /> <br />Cvr. no. 38361783
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- FOOTER MENU END -->
+
+    </main>
+
+    <!-- JS -->
+    <script src="js/functions.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+
+
+    <!-- JS til vising af flere client logo FRONT-PAGE-->
+
+    <script>
+        function myFunction() {
+            var dots = document.getElementById("dots");
+            var moreText = document.getElementById("more");
+            var btnText = document.getElementById("myBtn");
+
+            if (dots.style.display === "none") {
+                dots.style.display = "inline";
+                btnText.innerHTML = "Show All";
+                moreText.style.display = "none";
+            } else {
+                dots.style.display = "none";
+                btnText.innerHTML = "Read less";
+                moreText.style.display = "inline";
+            }
+        }
+    </script>
+
+
+
+
 </body>
 
 </html>

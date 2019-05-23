@@ -972,6 +972,15 @@ section.cases-showcase .btn {
   margin-bottom: 60px !important;
 }
 
+section.cases-showcase .btn-see-all{
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 50px;
+  font-size: 18px;
+  font-weight: 700;
+  color: #3c3c3c;
+}
+
 /************************************************
 
 CSS REGLER FOR SECTION - CASE STUDY EXAMPLE

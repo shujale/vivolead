@@ -78,6 +78,11 @@ CSS GENERELLE REGLER
   justify-content: space-between;
 }
 
+.flex-end {
+  display: flex;
+  justify-content: flex-end;
+}
+
 .space {
   margin-top: 30px;
 }
@@ -1102,8 +1107,24 @@ section.pricing-table {
   padding: 74px 130px 50px 100px;
 }
 
-section.pricing-table .heading-area{
+section.pricing-table .compare-btn-container {
+  color: #3c3c3c;
+  border: 1px solid black;
+  float: right;
+  margin-top: 45px;
+  padding: 10px 31px !important;
+}
 
+section.pricing-table .compare-btn-container .custom-control-label::before {
+  background-color: #ffffff !important;
+  border: 1px solid #3c3c3c;
+}
+
+section.pricing-table .compare-btn-container .custom-radio .custom-control-input:checked~.custom-control-label::before {
+  background-color: #54b9a0 !important;
+}
+
+section.pricing-table .heading-area {
   height: 57px;
 }
 
@@ -1112,7 +1133,7 @@ section.pricing-table .heading-area h3 {
   font-weight: 700;
 }
 
-section.pricing-table .heading-area span{
+section.pricing-table .heading-area span {
   font-weight: 400;
 }
 
@@ -1125,16 +1146,16 @@ section.pricing-table .pricing-container {
   box-shadow: 0px 3px 6px 0px rgba(60, 60, 60, 0.29) !important;
 }
 
-section.pricing-table .pricing-container .pricing-content{
+section.pricing-table .pricing-container .pricing-content {
   padding: 19px 25px 7px;
   border-bottom: 1px solid #eeeeee;
 }
 
-section.pricing-table .pricing-container .pricing-content h4{
+section.pricing-table .pricing-container .pricing-content h4 {
   font-size: 13px;
 }
 
-section.pricing-table .pricing-container .pricing-content .checked{
+section.pricing-table .pricing-container .pricing-content .checked {
   display: flex;
   width: 25px;
   margin: 0 auto;
@@ -1143,7 +1164,7 @@ section.pricing-table .pricing-container .pricing-content .checked{
 /** Additional pricing section **/
 
 section.additional-pricing {
-  padding: 74px 130px 50px 100px;
+  padding: 0px 130px 70px 100px;
 }
 
 section.additional-pricing .addtional-container-box {

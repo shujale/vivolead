@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 77.415 108.873">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #54b9a0;
+      }
+    </style>
+  </defs>
+  <g id="list" transform="translate(0 0.001)">
+    <path id="Path_57" data-name="Path 57" class="cls-1" d="M59.89,0H6.5V108.873H83.915V26.467Zm.965,6.195L78.292,25.4H60.855Zm-49.9,98.138V4.9H56.238V29.033H79.474v75.3Z" transform="translate(-6.5)"/>
+    <path id="Path_58" data-name="Path 58" class="cls-1" d="M53.66,21h-26.5a1.656,1.656,0,1,0,0,3.313h26.5a1.656,1.656,0,1,0,0-3.313Z" transform="translate(5.685 17.22)"/>
+    <path id="Path_59" data-name="Path 59" class="cls-1" d="M27.717,18.363l-7.125,5.7L18.328,21.8a1.656,1.656,0,0,0-2.342,2.342L19.3,27.454a1.655,1.655,0,0,0,2.2.123l8.282-6.626a1.656,1.656,0,0,0-2.069-2.587Z" transform="translate(-0.696 14.978)"/>
+    <path id="Path_60" data-name="Path 60" class="cls-1" d="M53.66,32h-26.5a1.656,1.656,0,0,0,0,3.313h26.5a1.656,1.656,0,0,0,0-3.313Z" transform="translate(5.685 26.24)"/>
+    <path id="Path_61" data-name="Path 61" class="cls-1" d="M27.717,29.363l-7.125,5.7L18.328,32.8a1.656,1.656,0,0,0-2.342,2.342L19.3,38.454a1.655,1.655,0,0,0,2.2.123l8.282-6.626a1.656,1.656,0,0,0-2.069-2.587Z" transform="translate(-0.696 24.131)"/>
+    <path id="Path_62" data-name="Path 62" class="cls-1" d="M53.66,43h-26.5a1.656,1.656,0,0,0,0,3.313h26.5a1.656,1.656,0,0,0,0-3.313Z" transform="translate(5.685 35.26)"/>
+    <path id="Path_63" data-name="Path 63" class="cls-1" d="M27.717,40.363l-7.125,5.7L18.328,43.8a1.656,1.656,0,0,0-2.342,2.342L19.3,49.454a1.655,1.655,0,0,0,2.2.123l8.282-6.626a1.656,1.656,0,0,0-2.069-2.587Z" transform="translate(-0.696 33.285)"/>
+  </g>
+</svg>

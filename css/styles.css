@@ -4,17 +4,12 @@ CSS REGLER FOR FONTS
 
 *************************************************/
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    font-family: 'Raleway', sans-serif !important;
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Raleway', sans-serif !important;
 }
 
 p {
-    font-family: 'Open Sans', sans-serif !important;
+  font-family: 'Open Sans', sans-serif !important;
 }
 
 /************************************************
@@ -24,60 +19,72 @@ CSS GENERELLE REGLER
 *************************************************/
 
 .fsize-xs {
-    font-size: 14px;
+  font-size: 14px;
 }
 
 /* font-size 16px */
 
 .fsize-sm {
-    font-size: 16px;
+  font-size: 16px;
 }
 
 /* font-size 18px */
 
 .fsize-md {
-    font-size: 18px;
+  font-size: 18px;
 }
 
 /* font-size 30px */
 
 .fsize-lg {
-    font-size: 30px;
+  font-size: 30px;
 }
 
 /* font-size 48px */
 
 .fsize-xl {
-    font-size: 48px;
+  font-size: 48px;
 }
 
 /* font-size 60px */
 
 .fsize-xxl {
-    font-size: 60px;
+  font-size: 60px;
 }
 
 /* font-size 80px */
 
 .fsize-xxxl {
-    font-size: 120px;
+  font-size: 120px;
 }
 
 .no-padding {
-    padding-left: 0 !important;
-    padding-right: 0 !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
 }
 
 .justify-content {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 .align-center {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
+.space-between {
+  display: flex;
+  justify-content: space-between;
+}
+
+.space {
+  margin-top: 30px;
+}
+
+.space-xl {
+  margin-top: 50px;
+}
 
 /************************************************
 
@@ -86,54 +93,47 @@ CSS REGLER FOR KNAPPER
 *************************************************/
 
 .btn {
-    font-family: 'Raleway', sans-serif !important;
-    font-weight: 600 !important;
-    font-size: 15px !important;
-    padding: 16px 50px !important;
-    border-radius: 5px !important;
-    margin-bottom: 10px !important
+  font-family: 'Raleway', sans-serif !important;
+  font-weight: 600 !important;
+  font-size: 15px !important;
+  padding: 16px 50px !important;
+  border-radius: 5px !important;
+  margin-bottom: 10px !important
 }
 
 .btn-primary {
-    background-color: #54b9a0 !important;
-    border: 1px solid #54b9a0 !important;
-    color: #ffffff !important;
-    -webkit-box-shadow: 0px 3px 6px 0px rgba(60, 60, 60, 0.29) !important;
-    -moz-box-shadow: 0px 3px 6px 0px rgba(60, 60, 60, 0.29) !important;
-    box-shadow: 0px 3px 6px 0px rgba(60, 60, 60, 0.29) !important;
+  background-color: #54b9a0 !important;
+  border: 1px solid #54b9a0 !important;
+  color: #ffffff !important;
+  -webkit-box-shadow: 0px 3px 6px 0px rgba(60, 60, 60, 0.29) !important;
+  -moz-box-shadow: 0px 3px 6px 0px rgba(60, 60, 60, 0.29) !important;
+  box-shadow: 0px 3px 6px 0px rgba(60, 60, 60, 0.29) !important;
 }
 
 .btn-primary:hover {
-    background-color: #fbba1c !important;
-    border: 1px solid #fbba1c !important;
-    color: #3c3c3c !important;
+  background-color: #fbba1c !important;
+  border: 1px solid #fbba1c !important;
+  color: #3c3c3c !important;
 }
 
 .btn-secondary {
-    background-color: #ffffff !important;
-    border: 1px solid #54b9a0 !important;
-    -webkit-box-shadow: 0px 3px 6px 0px rgba(60, 60, 60, 0.29) !important;
-    -moz-box-shadow: 0px 3px 6px 0px rgba(60, 60, 60, 0.29) !important;
-    box-shadow: 0px 3px 6px 0px rgba(60, 60, 60, 0.29) !important;
-    color: #54b9a0 !important;
+  background-color: #ffffff !important;
+  border: 1px solid #54b9a0 !important;
+  -webkit-box-shadow: 0px 3px 6px 0px rgba(60, 60, 60, 0.29) !important;
+  -moz-box-shadow: 0px 3px 6px 0px rgba(60, 60, 60, 0.29) !important;
+  box-shadow: 0px 3px 6px 0px rgba(60, 60, 60, 0.29) !important;
+  color: #54b9a0 !important;
 }
 
 .btn-secondary:hover {
-    background-color: #3c3c3c !important;
-    border: 1px solid #3c3c3c !important;
-    color: #fbba1c !important;
+  background-color: #3c3c3c !important;
+  border: 1px solid #3c3c3c !important;
+  color: #fbba1c !important;
 }
 
-.btn-primary:not(:disabled):not(.disabled):active:focus,
-.btn-secondary:not(:disabled):not(.disabled):active:focus {
-    box-shadow: none !important;
+.btn-primary:not(:disabled):not(.disabled):active:focus, .btn-secondary:not(:disabled):not(.disabled):active:focus {
+  box-shadow: none !important;
 }
-
-
-
-
-
-
 
 /************************************************
 
@@ -142,22 +142,22 @@ CSS REGLER FOR BILLEDFORMAT (JPG, PNG, SVG) OG LOGO
 *************************************************/
 
 .primary-logo {
-    max-width: 182px;
+  max-width: 182px;
 }
 
 .secondary-logo {
-    max-width: 182px;
+  max-width: 182px;
 }
 
 .footer-logo {
-    max-width: 240px;
-    margin-bottom: 20px;
+  max-width: 240px;
+  margin-bottom: 20px;
 }
 
 .translate-svg {
-    width: 15px;
-    height: 15px;
-    margin-right: 9px;
+  width: 15px;
+  height: 15px;
+  margin-right: 9px;
 }
 
 /************************************************
@@ -167,51 +167,51 @@ CSS REGLER FOR NAVIGATION
 *************************************************/
 
 .navbar {
-    min-height: 80px;
-    padding-left: 0 !important;
-    -webkit-box-align: baseline !important;
-    -ms-flex-align: baseline !important;
-    align-items: baseline !important;
-    transition: all 0.4s ease-in-out;
-    -webkit-transition: all 0.4s ease-in-out;
-    -moz-transition: all 0.4s ease-in-out;
+  min-height: 80px;
+  padding-left: 0 !important;
+  -webkit-box-align: baseline !important;
+  -ms-flex-align: baseline !important;
+  align-items: baseline !important;
+  transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
 }
 
 .navbar .navbar-brand {
-    padding: 16px 24px;
+  padding: 16px 24px;
 }
 
 .navbar .nav-link {
-    font-family: 'Raleway', sans-serif;
-    font-weight: 600;
-    font-size: 15px;
-    margin-left: 20px;
-    color: #3c3c3c;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  font-size: 15px;
+  margin-left: 20px;
+  color: #3c3c3c;
 }
 
 .navbar .navbar-right .nav-item .nav-link {
-    margin-left: 0;
-    padding: 2px 19px;
+  margin-left: 0;
+  padding: 2px 19px;
 }
 
 .navbar .navbar-right .nav-item .nav-link {
-    color: #d8d8d8;
+  color: #d8d8d8;
 }
 
 .navbar .navbar-right .nav-item-reversed .nav-link {
-    color: #ffffff !important;
+  color: #ffffff !important;
 }
 
 .navbar .navbar-right .nav-item {
-    background-color: #ffffff;
-    border: 2px solid #d8d8d8;
-    border-radius: 5px;
-    margin-right: 20px;
+  background-color: #ffffff;
+  border: 2px solid #d8d8d8;
+  border-radius: 5px;
+  margin-right: 20px;
 }
 
 .navbar .navbar-right .nav-item-reversed {
-    background-color: #54b9a0 !important;
-    border: 1px solid #54b9a0 !important;
+  background-color: #54b9a0 !important;
+  border: 1px solid #54b9a0 !important;
 }
 
 /************************************************
@@ -223,46 +223,45 @@ CSS REGLER FOR STICKY NAVIGATION
 /** For sticky navigation **/
 
 .sticky-top {
-    margin-bottom: 70px;
+  margin-bottom: 70px;
 }
 
 .stuck .sticky-top {
-    background-color: #54b9a0 !important;
+  background-color: #54b9a0 !important;
 }
 
 .stuck .sticky-top .nav-item .nav-link {
-    color: #ffffff !important;
+  color: #ffffff !important;
 }
 
 .stuck .sticky-top .primary-logo {
-    display: none;
+  display: none;
 }
 
 .stuck .sticky-top .secondary-logo {
-    display: inline-block !important;
+  display: inline-block !important;
 }
 
 .stuck .sticky-top .navbar .navbar-right .nav-item .nav-link {
-    color: #ffffff;
+  color: #ffffff;
 }
 
 .stuck .sticky-top .navbar-right .nav-item-reversed .nav-link {
-    color: #54b9a0 !important;
+  color: #54b9a0 !important;
 }
 
 .stuck .sticky-top .navbar-right .nav-item {
-    background-color: transparent;
-    border: 2px solid #ffffff;
+  background-color: transparent;
+  border: 2px solid #ffffff;
 }
 
 .stuck .sticky-top .navbar-right .nav-item-reversed {
-    background-color: #ffffff !important;
-    border: 1px solid #ffffff !important;
+  background-color: #ffffff !important;
+  border: 1px solid #ffffff !important;
 }
 
-.stuck .sticky-top .dropdown-toggle::after,
-.stuck .navbar-right .nav-item .dropdown-toggle::after {
-    content: url(../images/arrow-down-white.svg) !important;
+.stuck .sticky-top .dropdown-toggle::after, .stuck .navbar-right .nav-item .dropdown-toggle::after {
+  content: url(../images/arrow-down-white.svg) !important;
 }
 
 /************************************************
@@ -272,62 +271,61 @@ CSS REGLER FOR DROPDOWN
 *************************************************/
 
 .dropdown-menu {
-    background-color: #f3f1f1 !important;
-    font-family: 'Raleway', sans-serif !important;
-    font-size: 14px !important;
-    border-radius: 1px !important;
-    border: none !important;
-    -webkit-box-shadow: 0px 3px 6px 0px rgba(60, 60, 60, 0.29) !important;
-    -moz-box-shadow: 0px 3px 6px 0px rgba(60, 60, 60, 0.29) !important;
-    box-shadow: 0px 3px 6px 0px rgba(60, 60, 60, 0.29) !important;
-    width: 24rem;
-    padding: 24px 0 !important;
-    margin: 16px 27px !important;
+  background-color: #f3f1f1 !important;
+  font-family: 'Raleway', sans-serif !important;
+  font-size: 14px !important;
+  border-radius: 1px !important;
+  border: none !important;
+  -webkit-box-shadow: 0px 3px 6px 0px rgba(60, 60, 60, 0.29) !important;
+  -moz-box-shadow: 0px 3px 6px 0px rgba(60, 60, 60, 0.29) !important;
+  box-shadow: 0px 3px 6px 0px rgba(60, 60, 60, 0.29) !important;
+  width: 24rem;
+  padding: 24px 0 !important;
+  margin: 16px 27px !important;
 }
 
 .dropdown-menu .noextra {
-    width: 10rem !important;
-    background: red !important;
-    font-size: 50px !important;
+  width: 10rem !important;
+  background: red !important;
+  font-size: 50px !important;
 }
 
 .dropdown-menu.show {
-    display: flex !important;
+  display: flex !important;
 }
 
 .dropdown-divider {
-    border-left: 1px solid #d8d8d8 !important;
-    min-height: 135px !important;
-    position: absolute !important;
-    right: 211px !important;
+  border-left: 1px solid #d8d8d8 !important;
+  min-height: 135px !important;
+  position: absolute !important;
+  right: 211px !important;
 }
 
 .dropdown-item {
-    color: #3c3c3c;
+  color: #3c3c3c;
 }
 
 .dropdown-item:hover {
-    background-color: transparent !important;
-    color: #d8d8d8 !important;
+  background-color: transparent !important;
+  color: #d8d8d8 !important;
 }
 
-.dropdown:hover .dropdown-menu,
-.btn-group:hover .dropdown-menu {
-    display: flex;
+.dropdown:hover .dropdown-menu, .btn-group:hover .dropdown-menu {
+  display: flex;
 }
 
 .dropdown-toggle::after {
-    content: url(../images/arrow-down.svg) !important;
-    border: none !important;
-    width: 10px !important;
-    vertical-align: baseline !important;
+  content: url(../images/arrow-down.svg) !important;
+  border: none !important;
+  width: 10px !important;
+  vertical-align: baseline !important;
 }
 
 .navbar .navbar-right .nav-item .dropdown-toggle::after {
-    content: url(../images/arrow-down-grey.svg) !important;
-    border: none !important;
-    width: 10px !important;
-    vertical-align: baseline !important;
+  content: url(../images/arrow-down-grey.svg) !important;
+  border: none !important;
+  width: 10px !important;
+  vertical-align: baseline !important;
 }
 
 /************************************************
@@ -337,24 +335,24 @@ CSS REGLER FOR FOOTER
 *************************************************/
 
 footer {
-    background-color: #3c3c3c;
-    padding: 70px 0;
+  background-color: #3c3c3c;
+  padding: 70px 0;
 }
 
 footer .footer-title {
-    font-family: 'Raleway', sans-serif;
-    font-weight: 600;
-    font-size: 25px;
-    color: #ffffff;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  font-size: 25px;
+  color: #ffffff;
 }
 
 footer .footer-p {
-    font-family: 'Raleway', sans-serif;
-    color: #ffffff;
+  font-family: 'Raleway', sans-serif;
+  color: #ffffff;
 }
 
 footer .footer-p:hover {
-    color: #ffffff;
+  color: #ffffff;
 }
 
 /************************************************
@@ -367,69 +365,261 @@ CSS REGLER FOR GLOBAL SECTIONS (USED ON MULTIPLY PAGES)
 
 section.schedule-meeting {}
 
-
 /************************************************
 
   CSS REGLER FOR SECTION - FRONTPAGE
 
 *************************************************/
 
-/** Promise sektion - Frontpage **/
+/** Promise section - Frontpage **/
 
-#promise-img {
-    width: 120%;
-}
-.btn-promise {
-    margin-top: 20px;
-}
-.btn-promise-CTAtext {
-    font-size: 0.8rem;
-    font-style: italic;
-
-}
-/** Our Clients sektion - Frontpage **/
-
-.frontpage-ourclients{
-    margin: 3% 0 3% 0;
-    background-color: #eee;
-    padding-top: 2%;
-}
-.frontpage-ourclients b{
-    font-weight: bold;
-    font-size: 1.5rem;
-}
-/** Ordered List for our clients sektion - Frontpage **/
-.client-logo-front {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-}
-.client-logo-front li {
-  float: left;
-    margin-right: 70px;
+section.promise-intro {
+  padding: 30px 130px 50px 100px;
+  position: relative;
 }
 
-.client-logo-front li a {
-  display: block;
-      margin-bottom: 65%;
-
+section.promise-intro h1 {
+  font-weight: 700;
+  font-size: 49px;
 }
-/**CTA til our clients sektion - Frontpage **/
+
+section.promise-intro p {
+  font-size: 20px;
+}
+
+section.promise-intro .btn-promise-ctatext {
+  font-size: 12px;
+}
+
+section.promise-intro .promise-img {
+  width: 120%;
+  position: absolute;
+  right: -30px;
+}
+
+section.promise-intro .download-container {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  right: -87px;
+  top: 54px;
+}
+
+/** Our Clients section - Frontpage **/
+
+section.frontpage-our-clients {
+  padding: 60px 130px 50px 100px;
+  background-color: #eeeeee;
+  margin-bottom: 50px;
+}
+
+section.frontpage-our-clients .heading-area {
+  display: flex;
+}
+
+section.frontpage-our-clients .heading-area h2 {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 0;
+  margin-right: 10px;
+}
+
+section.frontpage-our-clients .heading-area #myBtn {
+  Color: #54b9a0;
+  background-color: transparent;
+  border: none;
+  font-style: italic;
+  text-decoration: underline;
+}
+
+section.frontpage-our-clients .client-logo-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+section.frontpage-our-clients .client-logo-container .client-logo-specific {
+  margin-top: 50px;
+}
+
 #more {
-    display: none;
+  display: none;
 }
-#myBtn{
-    color: green;
-    background-color: transparent;
-    border: none;
-    font-style: italic;
-    text-decoration: underline;
-    margin-left: -200px; /* Kan ikke justeres på andet vis */
-    }
 
-/** Our Sevice sektion - Frontpage **/
+/** How it works - Frontpage **/
+
+section.frontpage-howitworks {
+  padding: 60px 130px 50px 100px;
+}
+
+section.frontpage-howitworks h2 {
+  font-weight: 500;
+  font-size: 32px;
+  margin-bottom: 30px;
+}
+
+section.frontpage-howitworks p {
+  font-size: 16px;
+}
+
+section.frontpage-howitworks h2,
+section.frontpage-howitworks p{
+  padding-right: 50px;
+}
+
+.flip-card {
+  max-width: 217px;
+  height: 240px;
+  perspective: 1000px;
+  margin-bottom: 30px;
+}
+
+/** How it works - flipcard - Frontpage **/
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  -webkit-box-shadow: 0px 3px 6px 0px rgba(60, 60, 60, 0.29) !important;
+  -moz-box-shadow: 0px 3px 6px 0px rgba(60, 60, 60, 0.29) !important;
+  box-shadow: 0px 3px 6px 0px rgba(60, 60, 60, 0.29) !important;
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  display: flex;
+  justify-content: center;
+  background-color: #ffffff;
+  border-radius: 5px;
+  color: #3c3c3c;
+}
+
+.flip-card-front .flip-card-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 10px;
+}
+
+.flip-card-front h3 {
+  position: absolute;
+  top: 6px;
+  left: 9px;
+  font-weight: 700;
+  color: #54b9a0;
+  border-radius: 5px;
+}
+
+.flip-card-front .flip-card-content p {
+  font-size: 13px;
+}
+
+.flip-card-back .flip-card-content a {
+  font-style: italic;
+  font-weight: 500;
+  font-size: 12px;
+  color: #54b9a0 !important;
+  text-decoration: underline !important;
+}
+
+.flip-card-front .flip-card-content .icon-work-image {
+  max-width: 67px;
+  margin-top: 20px;
+}
+
+.flip-card-back {
+  display: flex;
+  background-color: #3c3c3c;
+  color: #ffffff;
+  border-radius: 5px;
+  transform: rotateY(180deg);
+}
+
+.flip-card-back h3 {
+  position: absolute;
+  top: 6px;
+  left: 9px;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.flip-card-back .flip-card-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 15px;
+}
+
+.flip-card-back .flip-card-content p {
+  font-size: 13px;
+  margin-top: 26px;
+}
+
+/** Our Sevice section - Frontpage **/
+
+section.frontpage-service {
+  padding: 60px 171px;
+}
+
+section.frontpage-service h2 {
+  font-weight: 500;
+  font-size: 32px;
+  margin-bottom: 30px;
+}
+
+section.frontpage-service p {
+  font-size: 16px;
+}
+
+section.frontpage-service .card-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: auto;
+  padding: 42px 34px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  text-align: center;
+  -webkit-box-shadow: 0px 3px 6px 0px rgba(60, 60, 60, 0.29) !important;
+  -moz-box-shadow: 0px 3px 6px 0px rgba(60, 60, 60, 0.29) !important;
+  box-shadow: 0px 3px 6px 0px rgba(60, 60, 60, 0.29) !important;
+}
+
+section.frontpage-service .card-container h3 {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+
+section.frontpage-service .card-container h4 {
+  font-size: 22px;
+}
+
+section.frontpage-service .card-container p {
+  font-size: 14px;
+}
+
+section.frontpage-service .card-container .btn-primary {
+  max-width: 222px;
+  padding: 15px 27px !important;
+  font-size: 13px !important;
+}
+
 /* Styleing of counter cards */
+
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   padding: 16px;
@@ -437,27 +627,33 @@ section.schedule-meeting {}
   background-color: #f1f1f1;
   height: 300px;
 }
+
 /* Float four columns side by side */
+
 .column {
   float: left;
   width: 25%;
   padding: 0 10px;
 }
+
 /* Removeed extra left and right margins, due to padding */
-.service-frontpage .row {margin: 0 -5px;}
+
+.service-frontpage .row {
+  margin: 0 -5px;
+}
 
 /* Cleared float */
+
 .service-frontpage .row:after {
   content: "";
   display: table;
   clear: both;
 }
 
-.service-frontpage{
-    margin-top: 10%;
-    margin-bottom: 3%;
+.service-frontpage {
+  margin-top: 10%;
+  margin-bottom: 3%;
 }
-
 
 /************************************************
 
@@ -466,189 +662,187 @@ section.schedule-meeting {}
 *************************************************/
 
 section.learn-text-introduction {
-    padding: 74px 130px 50px 100px;
-    color: #3c3c3c;
+  padding: 74px 130px 50px 100px;
+  color: #3c3c3c;
 }
 
 section.learn-text-introduction h1 {
-    font-weight: 700;
-    font-size: 49px;
+  font-weight: 700;
+  font-size: 49px;
 }
 
 section.learn-text-introduction p {
-    font-size: 25px;
+  font-size: 25px;
 }
 
-
-
 section.learn-seminar-introduction {
-    background-image: url('../images/learn-seminar.jpg');
-    padding: 74px 130px 50px 100px;
+  background-image: url('../images/learn-seminar.jpg');
+  padding: 74px 130px 50px 100px;
 }
 
 section.learn-seminar-introduction h2 {
-    font-size: 49px;
-    font-weight: 500;
-    color: #ffffff;
-    margin-bottom: 34px;
+  font-size: 49px;
+  font-weight: 500;
+  color: #ffffff;
+  margin-bottom: 34px;
 }
 
 section.learn-seminar-introduction p {
-    font-size: 22px;
-    color: #ffffff;
-    margin-bottom: 39px;
+  font-size: 22px;
+  color: #ffffff;
+  margin-bottom: 39px;
 }
 
 /** Blog sektion - learn **/
 
 section.learn-blog-introduction {
-    padding: 160px 130px 137px 100px;
-    position: relative;
+  padding: 160px 130px 137px 100px;
+  position: relative;
 }
 
 section.learn-blog-introduction h2 {
-    font-size: 49px;
-    font-weight: 500;
-    margin-bottom: 34px;
+  font-size: 49px;
+  font-weight: 500;
+  margin-bottom: 34px;
 }
 
 section.learn-blog-introduction p {
-    font-size: 22px;
-    margin-bottom: 39px;
+  font-size: 22px;
+  margin-bottom: 39px;
 }
 
 section.learn-blog-introduction img {
-    position: absolute;
-    right: -85px;
-    bottom: -11px;
+  position: absolute;
+  right: -85px;
+  bottom: -11px;
 }
 
 /** Video sektion - learn **/
 
 section.learn-video-introduction {
-    padding: 74px 130px 50px 100px;
-    background-color: #eeeeee;
-    position: relative;
+  padding: 74px 130px 50px 100px;
+  background-color: #eeeeee;
+  position: relative;
 }
 
 section.learn-video-introduction .video-part {
-    position: relative;
+  position: relative;
 }
 
 section.learn-video-introduction #overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: #3c3c3c url('../images/play-arrow.png');
-    background-repeat: no-repeat;
-    background-position: center center;
-    opacity: 0.8;
-    z-index: 50;
-    color: #fff;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #3c3c3c url('../images/play-arrow.png');
+  background-repeat: no-repeat;
+  background-position: center center;
+  opacity: 0.8;
+  z-index: 50;
+  color: #fff;
 }
 
 section.learn-video-introduction .content {
-    width: 100%;
-    background-color: #ffffff;
-    padding: 70px 20px 31px;
-    -webkit-box-shadow: 0px 3px 6px 0px rgba(60, 60, 60, 0.29) !important;
-    -moz-box-shadow: 0px 3px 6px 0px rgba(60, 60, 60, 0.29) !important;
-    box-shadow: 0px 3px 6px 0px rgba(60, 60, 60, 0.29) !important;
+  width: 100%;
+  background-color: #ffffff;
+  padding: 70px 20px 31px;
+  -webkit-box-shadow: 0px 3px 6px 0px rgba(60, 60, 60, 0.29) !important;
+  -moz-box-shadow: 0px 3px 6px 0px rgba(60, 60, 60, 0.29) !important;
+  box-shadow: 0px 3px 6px 0px rgba(60, 60, 60, 0.29) !important;
 }
 
 section.learn-video-introduction .content p {
-    font-size: 22px;
-    margin-bottom: 37px;
+  font-size: 22px;
+  margin-bottom: 37px;
 }
 
 /** Setting up sektion - learn **/
 
 section.learn-settingup-introduction {
-    padding: 190px 130px 150px 100px;
-    position: relative;
+  padding: 190px 130px 150px 100px;
+  position: relative;
 }
 
 section.learn-settingup-introduction h2 {
-    font-size: 49px;
-    font-weight: 500;
-    margin-bottom: 34px;
+  font-size: 49px;
+  font-weight: 500;
+  margin-bottom: 34px;
 }
 
 section.learn-settingup-introduction p {
-    font-size: 22px;
-    margin-bottom: 39px;
+  font-size: 22px;
+  margin-bottom: 39px;
 }
 
 section.learn-settingup-introduction img {
-    position: absolute;
-    right: -86px;
-    bottom: -25px;
+  position: absolute;
+  right: -86px;
+  bottom: -25px;
 }
 
 /** Brochure sektion - learn **/
 
 section.learn-brochure-introduction {
-    background-color: #eeeeee;
-    padding: 140px 130px 150px 100px;
-    position: relative;
+  background-color: #eeeeee;
+  padding: 140px 130px 150px 100px;
+  position: relative;
 }
 
 section.learn-brochure-introduction h2 {
-    font-size: 49px;
-    font-weight: 500;
-    margin-bottom: 34px;
+  font-size: 49px;
+  font-weight: 500;
+  margin-bottom: 34px;
 }
 
 section.learn-brochure-introduction p {
-    font-size: 22px;
-    margin-bottom: 39px;
+  font-size: 22px;
+  margin-bottom: 39px;
 }
 
 section.learn-brochure-introduction img {
-    position: absolute;
-    right: -12px;
-    top: -177px;
+  position: absolute;
+  right: -12px;
+  top: -177px;
 }
 
 /** Additional sektion - learn **/
 
 section.learn-additional-introduction {
-    background-color: #f9fafc;
-    padding: 74px 130px 90px 100px;
+  background-color: #f9fafc;
+  padding: 74px 130px 90px 100px;
 }
 
 section.learn-additional-introduction .additional-container {
-    width: 100%;
-    max-width: 500px;
-    height: auto;
-    background-color: #ffffff;
-    -webkit-box-shadow: 0px 3px 6px 0px rgba(60, 60, 60, 0.29) !important;
-    -moz-box-shadow: 0px 3px 6px 0px rgba(60, 60, 60, 0.29) !important;
-    box-shadow: 0px 3px 6px 0px rgba(60, 60, 60, 0.29) !important;
-    padding: 45px 40px;
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  background-color: #ffffff;
+  -webkit-box-shadow: 0px 3px 6px 0px rgba(60, 60, 60, 0.29) !important;
+  -moz-box-shadow: 0px 3px 6px 0px rgba(60, 60, 60, 0.29) !important;
+  box-shadow: 0px 3px 6px 0px rgba(60, 60, 60, 0.29) !important;
+  padding: 45px 40px;
 }
 
 section.learn-additional-introduction .additional-container .additional-box {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    padding: 5px 0 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px 0 10px;
 }
 
 section.learn-additional-introduction .additional-container .additional-box .additional-title {
-    font-size: 22px;
-    font-weight: 500;
-    margin-bottom: 0;
+  font-size: 22px;
+  font-weight: 500;
+  margin-bottom: 0;
 }
 
 section.learn-additional-introduction .additional-container .additional-box .additional-cta {
-    font-size: 19px;
-    font-style: italic;
-    color: #54b9a0;
-    margin-bottom: 0;
+  font-size: 19px;
+  font-style: italic;
+  color: #54b9a0;
+  margin-bottom: 0;
 }
 
 /************************************************
@@ -660,57 +854,57 @@ CSS REGLER FOR SECTION - CASES OVERVIEW
 /** CSS for sections on cases page **/
 
 section.cases-text-introduction {
-    padding: 74px 130px 50px 100px;
-    color: #3c3c3c;
+  padding: 74px 130px 50px 100px;
+  color: #3c3c3c;
 }
 
 section.cases-text-introduction h1 {
-    font-weight: 700;
-    font-size: 49px;
+  font-weight: 700;
+  font-size: 49px;
 }
 
 section.cases-text-introduction p {
-    font-size: 25px;
+  font-size: 25px;
 }
 
 /** Cases showcase sektion **/
 
 section.cases-showcase {
-    padding: 74px 130px 50px 100px;
+  padding: 74px 130px 50px 100px;
 }
 
 section.cases-showcase img {
-    width: 100%;
-    max-width: 300px;
-    min-height: 350px;
-    border-radius: 5px;
-    position: relative;
+  width: 100%;
+  max-width: 300px;
+  min-height: 350px;
+  border-radius: 5px;
+  position: relative;
 }
 
 section.cases-showcase figure {
-    position: relative;
+  position: relative;
 }
 
 section.cases-showcase figcaption {
-    background-color: #ffffff;
-    position: absolute;
-    bottom: -1px;
-    min-width: 300px;
-    border: 1px solid #3c3c3c;
-    border-radius: 0 0 5px 5px;
+  background-color: #ffffff;
+  position: absolute;
+  bottom: -1px;
+  min-width: 300px;
+  border: 1px solid #3c3c3c;
+  border-radius: 0 0 5px 5px;
 }
 
 section.cases-showcase figcaption h3 {
-    font-weight: 600;
-    font-size: 20px;
-    margin-left: 12px;
-    margin-top: 12px;
+  font-weight: 600;
+  font-size: 20px;
+  margin-left: 12px;
+  margin-top: 12px;
 }
 
 section.cases-showcase .btn {
-    max-width: 300px;
-    width: 100%;
-    margin-bottom: 60px !important;
+  max-width: 300px;
+  width: 100%;
+  margin-bottom: 60px !important;
 }
 
 /************************************************
@@ -722,90 +916,90 @@ CSS REGLER FOR SECTION - CASE STUDY EXAMPLE
 /** CSS for sections on case study page **/
 
 section.case-study-intro {
-    padding: 74px 130px 50px 100px;
-    color: #3c3c3c;
+  padding: 74px 130px 50px 100px;
+  color: #3c3c3c;
 }
 
 section.case-study-intro h2 {
-    font-size: 49px;
-    font-weight: 700;
+  font-size: 49px;
+  font-weight: 700;
 }
 
 section.case-study-intro p {
-    font-size: 25px;
+  font-size: 25px;
 }
 
 section.case-study-intro img {
-    width: 100%;
-    max-width: 430px;
+  width: 100%;
+  max-width: 430px;
 }
 
 /** Case study sektion - challenge **/
 
 section.case-study-challenge {
-    padding: 74px 130px 50px 100px;
+  padding: 74px 130px 50px 100px;
 }
 
 section.case-study-challenge h3 {
-    font-size: 42px;
-    font-weight: 700;
+  font-size: 42px;
+  font-weight: 700;
 }
 
 section.case-study-challenge p {
-    font-size: 25px;
+  font-size: 25px;
 }
 
 /** Case study sektion - result **/
 
 section.case-study-result {
-    padding: 40px 130px 50px 100px;
+  padding: 40px 130px 50px 100px;
 }
 
 section.case-study-result h3 {
-    font-size: 42px;
-    font-weight: 700;
+  font-size: 42px;
+  font-weight: 700;
 }
 
 section.case-study-result p {
-    font-size: 25px;
+  font-size: 25px;
 }
 
 /** Case study sektion - hero image + testimonial **/
 
 section.case-study-heroimage img {
-    width: 100%;
+  width: 100%;
 }
 
 section.case-study-testimonial {
-    padding: 110px 130px 75px 100px;
-    background: #eeeeee url('../images/quote-mark-bg.png');
-    background-repeat: no-repeat;
-    background-position: left;
+  padding: 110px 130px 75px 100px;
+  background: #eeeeee url('../images/quote-mark-bg.png');
+  background-repeat: no-repeat;
+  background-position: left;
 }
 
 section.case-study-testimonial img {
-    width: 100%;
-    max-width: 95px;
+  width: 100%;
+  max-width: 95px;
 }
 
 section.case-study-testimonial .meta-up {
-    display: flex;
-    align-items: center;
-    color: #3c3c3c;
+  display: flex;
+  align-items: center;
+  color: #3c3c3c;
 }
 
 section.case-study-testimonial .meta-info {
-    margin-top: 15px;
-    margin-left: 20px;
+  margin-top: 15px;
+  margin-left: 20px;
 }
 
 section.case-study-testimonial .meta-name {
-    font-weight: 700;
-    margin-bottom: 0;
+  font-weight: 700;
+  margin-bottom: 0;
 }
 
 section.case-study-testimonial .meta-down {
-    margin-top: 20px;
+  margin-top: 20px;
 }
 
 /************************************************
@@ -815,17 +1009,17 @@ CSS REGLER FOR SECTION - PRICING
 *************************************************/
 
 section.pricing-text-introduction {
-    padding: 74px 130px 50px 100px;
-    color: #3c3c3c;
+  padding: 74px 130px 50px 100px;
+  color: #3c3c3c;
 }
 
 section.pricing-text-introduction h1 {
-    font-weight: 700;
-    font-size: 49px;
+  font-weight: 700;
+  font-size: 49px;
 }
 
 section.pricing-text-introduction p {
-    font-size: 25px;
+  font-size: 25px;
 }
 
 /************************************************
@@ -835,17 +1029,17 @@ CSS REGLER FOR SECTION - SUPPORT
 *************************************************/
 
 section.support-text-introduction {
-    padding: 74px 130px 50px 100px;
-    color: #3c3c3c;
+  padding: 74px 130px 50px 100px;
+  color: #3c3c3c;
 }
 
 section.support-text-introduction h1 {
-    font-weight: 700;
-    font-size: 49px;
+  font-weight: 700;
+  font-size: 49px;
 }
 
 section.support-text-introduction p {
-    font-size: 25px;
+  font-size: 25px;
 }
 
 /************************************************
@@ -855,63 +1049,63 @@ CSS REGLER FOR SECTION - CONTACT
 *************************************************/
 
 section.contact-text-introduction {
-    padding: 74px 130px 50px 100px;
-    color: #3c3c3c;
+  padding: 74px 130px 50px 100px;
+  color: #3c3c3c;
 }
 
 section.contact-text-introduction h1 {
-    font-weight: 700;
-    font-size: 49px;
+  font-weight: 700;
+  font-size: 49px;
 }
 
 section.contact-text-introduction p {
-    font-size: 25px;
+  font-size: 25px;
 }
 
 /** members sektion - contact **/
 
 section.contact-members {
-    padding: 74px 130px 50px 100px;
+  padding: 74px 130px 50px 100px;
 }
 
 section.contact-members .member-container {
-    margin-bottom: 141px;
-    position: relative;
+  margin-bottom: 141px;
+  position: relative;
 }
 
 section.contact-members .member-container .member-image {
-    max-width: 300px;
-    width: 100%;
+  max-width: 300px;
+  width: 100%;
 }
 
 section.contact-members .member-container .member-soc {
-    margin-top: 10px;
-    position: absolute;
-    top: 380px;
+  margin-top: 10px;
+  position: absolute;
+  top: 380px;
 }
 
 section.contact-members .member-container .member-info {
-    margin-top: 30px;
-    margin-bottom: 15px;
+  margin-top: 30px;
+  margin-bottom: 15px;
 }
 
 section.contact-members .member-container .member-info .member-name {
-    font-weight: 700;
-    font-size: 25px;
-    margin-bottom: 0;
+  font-weight: 700;
+  font-size: 25px;
+  margin-bottom: 0;
 }
 
 section.contact-members .member-container .member-info .member-position {
-    font-size: 20px;
-    font-style: italic;
+  font-size: 20px;
+  font-style: italic;
 }
 
 section.contact-members .member-container .member-contact-info p {
-    font-family: 'Raleway', sans-serif !important;
+  font-family: 'Raleway', sans-serif !important;
 }
 
 section.contact-members .member-container .member-contact-info a {
-    color: #54b9a0;
+  color: #54b9a0;
 }
 
 /************************************************

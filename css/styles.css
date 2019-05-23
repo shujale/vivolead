@@ -972,7 +972,7 @@ section.cases-showcase .btn {
   margin-bottom: 60px !important;
 }
 
-section.cases-showcase .btn-see-all{
+section.cases-showcase .btn-see-all {
   display: flex;
   justify-content: flex-end;
   margin-right: 50px;
@@ -1094,6 +1094,83 @@ section.pricing-text-introduction h1 {
 
 section.pricing-text-introduction p {
   font-size: 20px;
+}
+
+/** Pricing list section **/
+
+section.pricing-table {
+  padding: 74px 130px 50px 100px;
+}
+
+section.pricing-table .heading-area{
+
+  height: 57px;
+}
+
+section.pricing-table .heading-area h3 {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+section.pricing-table .heading-area span{
+  font-weight: 400;
+}
+
+section.pricing-table .pricing-container {
+  width: 100%;
+  height: auto;
+  border-radius: 1px;
+  -webkit-box-shadow: 0px 3px 6px 0px rgba(60, 60, 60, 0.29) !important;
+  -moz-box-shadow: 0px 3px 6px 0px rgba(60, 60, 60, 0.29) !important;
+  box-shadow: 0px 3px 6px 0px rgba(60, 60, 60, 0.29) !important;
+}
+
+section.pricing-table .pricing-container .pricing-content{
+  padding: 19px 25px 7px;
+  border-bottom: 1px solid #eeeeee;
+}
+
+section.pricing-table .pricing-container .pricing-content h4{
+  font-size: 13px;
+}
+
+section.pricing-table .pricing-container .pricing-content .checked{
+  display: flex;
+  width: 25px;
+  margin: 0 auto;
+}
+
+/** Additional pricing section **/
+
+section.additional-pricing {
+  padding: 74px 130px 50px 100px;
+}
+
+section.additional-pricing .addtional-container-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  height: auto;
+  padding: 55px 96px;
+  background-color: #f5f5f5;
+  -webkit-box-shadow: 0px 3px 6px 0px rgba(60, 60, 60, 0.29) !important;
+  -moz-box-shadow: 0px 3px 6px 0px rgba(60, 60, 60, 0.29) !important;
+  box-shadow: 0px 3px 6px 0px rgba(60, 60, 60, 0.29) !important;
+}
+
+section.additional-pricing .addtional-container-box .additional-right-content {
+  width: 39%;
+  margin-right: 50px;
+}
+
+section.additional-pricing .addtional-container-box .additional-right-content .additional-btn-container {
+  display: flex;
+  flex-direction: column;
+}
+
+section.additional-pricing .addtional-container-box .additional-right-content .additional-btn-container .btn-primary {
+  margin-bottom: 32px !important;
 }
 
 /************************************************

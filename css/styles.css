@@ -363,7 +363,40 @@ CSS REGLER FOR GLOBAL SECTIONS (USED ON MULTIPLY PAGES)
 
 /** CSS for schedule meeting section **/
 
-section.schedule-meeting {}
+section.shedule-meeting-form {
+  padding: 90px 130px 50px 100px;
+  background-color: #eeeeee;
+}
+
+section.shedule-meeting-form .heading-area h2 {
+  font-weight: 700;
+  text-align: center;
+}
+
+section.shedule-meeting-form form {
+  max-width: 500px;
+  display: block;
+  margin: 0 auto;
+}
+
+section.shedule-meeting-form .form-control {
+  border: transparent;
+  border-radius: 0;
+  font-family: 'Raleway', sans-serif;
+  font-size: 12px;
+  -webkit-box-shadow: 0px 3px 6px 0px rgba(60, 60, 60, 0.29) !important;
+  -moz-box-shadow: 0px 3px 6px 0px rgba(60, 60, 60, 0.29) !important;
+  box-shadow: 0px 3px 6px 0px rgba(60, 60, 60, 0.29) !important;
+}
+
+section.shedule-meeting-form select {
+  background-image: linear-gradient(45deg, transparent 50%, #3c3c3c 60%), linear-gradient(135deg, #3c3c3c 40%, transparent 50%) !important;
+  background-position: calc(100% - 30px) 14px, calc(100% - 20px) 14px, 100% 0;
+  background-size: 10px 10px, 10px 10px;
+  background-repeat: no-repeat;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
 
 /************************************************
 
@@ -460,10 +493,10 @@ section.frontpage-howitworks h2 {
 
 section.frontpage-howitworks p {
   font-size: 16px;
+  margin-bottom: 40px;
 }
 
-section.frontpage-howitworks h2,
-section.frontpage-howitworks p{
+section.frontpage-howitworks h2, section.frontpage-howitworks p {
   padding-right: 50px;
 }
 
@@ -525,6 +558,7 @@ section.frontpage-howitworks p{
 
 .flip-card-front .flip-card-content p {
   font-size: 13px;
+  padding-right: 0;
 }
 
 .flip-card-back .flip-card-content a {
@@ -564,30 +598,58 @@ section.frontpage-howitworks p{
 }
 
 .flip-card-back .flip-card-content p {
-  font-size: 13px;
+  font-size: 11px;
   margin-top: 26px;
 }
 
-/** Our Sevice section - Frontpage **/
+/** Who we are - Frontpage **/
 
-section.frontpage-service {
-  padding: 60px 171px;
+section.frontpage-whoweare {
+  padding: 60px 130px 50px 100px;
 }
 
-section.frontpage-service h2 {
+section.frontpage-whoweare h2 {
   font-weight: 500;
   font-size: 32px;
   margin-bottom: 30px;
 }
 
-section.frontpage-service p {
+section.frontpage-whoweare p {
   font-size: 16px;
+  margin-bottom: 40px;
+}
+
+section.frontpage-whoweare h2, section.frontpage-whoweare p {
+  padding-right: 50px;
+}
+
+section.frontpage-whoweare img {
+  width: 100%;
+}
+
+/** Our Sevice section - Frontpage **/
+
+section.frontpage-service {
+  padding: 60px 109px;
+}
+
+section.frontpage-service .heading-area h2 {
+  font-weight: 500;
+  font-size: 32px;
+  margin-bottom: 30px;
+}
+
+section.frontpage-service .heading-area p {
+  font-size: 16px;
+  padding-left: 150px;
+  padding-right: 150px;
 }
 
 section.frontpage-service .card-container {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+  max-width: 235px;
   height: auto;
   padding: 42px 34px;
   background-color: #ffffff;
@@ -618,41 +680,44 @@ section.frontpage-service .card-container .btn-primary {
   font-size: 13px !important;
 }
 
-/* Styleing of counter cards */
+/** Download the app - Frontpage **/
 
-.card {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  padding: 16px;
-  text-align: center;
-  background-color: #f1f1f1;
-  height: 300px;
+section.frontpage-download {
+  padding: 300px 130px 320px 100px;
 }
 
-/* Float four columns side by side */
-
-.column {
-  float: left;
-  width: 25%;
-  padding: 0 10px;
+section.frontpage-download .heading-area {
+  position: relative;
+  z-index: 99;
 }
 
-/* Removeed extra left and right margins, due to padding */
-
-.service-frontpage .row {
-  margin: 0 -5px;
+section.frontpage-download h2 {
+  margin-left: 145px;
+  margin-top: -10px;
+  font-weight: 500;
 }
 
-/* Cleared float */
-
-.service-frontpage .row:after {
-  content: "";
-  display: table;
-  clear: both;
+section.frontpage-download p {
+  padding-right: 112px;
+  margin-bottom: 50px;
 }
 
-.service-frontpage {
-  margin-top: 10%;
-  margin-bottom: 3%;
+section.frontpage-download .download-mockup {
+  width: 177%;
+  position: absolute;
+  top: -207px;
+  left: 10px;
+}
+
+section.frontpage-download .download-container {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  right: 195px;
+}
+
+section.frontpage-download .download-container img {
+  width: 95%;
 }
 
 /************************************************
@@ -672,7 +737,7 @@ section.learn-text-introduction h1 {
 }
 
 section.learn-text-introduction p {
-  font-size: 25px;
+  font-size: 20px;
 }
 
 section.learn-seminar-introduction {
@@ -688,7 +753,7 @@ section.learn-seminar-introduction h2 {
 }
 
 section.learn-seminar-introduction p {
-  font-size: 22px;
+  font-size: 16px;
   color: #ffffff;
   margin-bottom: 39px;
 }
@@ -707,7 +772,7 @@ section.learn-blog-introduction h2 {
 }
 
 section.learn-blog-introduction p {
-  font-size: 22px;
+  font-size: 16px;
   margin-bottom: 39px;
 }
 
@@ -753,7 +818,7 @@ section.learn-video-introduction .content {
 }
 
 section.learn-video-introduction .content p {
-  font-size: 22px;
+  font-size: 16px;
   margin-bottom: 37px;
 }
 
@@ -771,7 +836,7 @@ section.learn-settingup-introduction h2 {
 }
 
 section.learn-settingup-introduction p {
-  font-size: 22px;
+  font-size: 16px;
   margin-bottom: 39px;
 }
 
@@ -796,7 +861,7 @@ section.learn-brochure-introduction h2 {
 }
 
 section.learn-brochure-introduction p {
-  font-size: 22px;
+  font-size: 16px;
   margin-bottom: 39px;
 }
 
@@ -864,7 +929,7 @@ section.cases-text-introduction h1 {
 }
 
 section.cases-text-introduction p {
-  font-size: 25px;
+  font-size: 20px;
 }
 
 /** Cases showcase sektion **/
@@ -926,7 +991,7 @@ section.case-study-intro h2 {
 }
 
 section.case-study-intro p {
-  font-size: 25px;
+  font-size: 20px;
 }
 
 section.case-study-intro img {
@@ -946,7 +1011,7 @@ section.case-study-challenge h3 {
 }
 
 section.case-study-challenge p {
-  font-size: 25px;
+  font-size: 16px;
 }
 
 /** Case study sektion - result **/
@@ -961,7 +1026,7 @@ section.case-study-result h3 {
 }
 
 section.case-study-result p {
-  font-size: 25px;
+  font-size: 16px;
 }
 
 /** Case study sektion - hero image + testimonial **/
@@ -1019,7 +1084,7 @@ section.pricing-text-introduction h1 {
 }
 
 section.pricing-text-introduction p {
-  font-size: 25px;
+  font-size: 20px;
 }
 
 /************************************************
@@ -1039,7 +1104,118 @@ section.support-text-introduction h1 {
 }
 
 section.support-text-introduction p {
-  font-size: 25px;
+  font-size: 20px;
+}
+
+/* FAQ section */
+
+section.support-faq {
+  padding: 74px 130px 50px 100px;
+}
+
+section.support-faq .nav li a {
+  position: relative;
+  display: block;
+  padding: 10px 15px;
+  background-color: #ffffff;
+  color: #3c3c3c;
+  font-weight: 700;
+  font-size: 14px;
+  -webkit-box-shadow: 0px 3px 6px 0px rgba(60, 60, 60, 0.29) !important;
+  -moz-box-shadow: 0px 3px 6px 0px rgba(60, 60, 60, 0.29) !important;
+  box-shadow: 0px 3px 6px 0px rgba(60, 60, 60, 0.29) !important;
+  border-radius: 5px 5px 0 0;
+}
+
+section.support-faq .nav li a:hover {
+  text-decoration: none;
+  background-color: #54b9a0;
+  color: #ffffff !important;
+}
+
+section.support-faq .nav li a.active {
+  background: #54b9a0;
+  color: #ffffff;
+}
+
+section.support-faq #exTab1 .tab-content {
+  color: white;
+  background-color: #54b9a0;
+  padding: 37px 36px;
+  -webkit-box-shadow: 0px 3px 6px 0px rgba(60, 60, 60, 0.29) !important;
+  -moz-box-shadow: 0px 3px 6px 0px rgba(60, 60, 60, 0.29) !important;
+  box-shadow: 0px 3px 6px 0px rgba(60, 60, 60, 0.29) !important;
+  border-radius: 0 0 5px 5px;
+}
+
+section.support-faq #exTab3 .tab-content {
+  color: white;
+  background-color: #54b9a0;
+  padding: 37px 36px;
+  border-bottom: 1px solid #3c3c3c;
+  border-left: 1px solid #3c3c3c;
+  border-right: 1px solid #3c3c3c;
+  border-radius: 0 0 5px 5px;
+}
+
+section.support-faq panel-group .panel {
+  border-color: #ffffff;
+}
+
+section.support-faq .panel-title {
+  font-size: 16px;
+}
+
+section.support-faq .panel-title a {
+  display: block;
+  padding: 15px 0;
+  color: #ffffff;
+  text-decoration: none;
+  border-bottom: 1px solid #ffffff;
+}
+
+section.support-faq .panel-title a .number {
+  font-weight: 700;
+  margin-right: 10px;
+}
+
+section.support-faq .short-full {
+  float: right;
+  color: #ffffff;
+  margin-right: 1px;
+}
+
+section.support-faq .panel-default .panel-heading+.panel-collapse .panel-body {
+  background-color: #ffffff;
+  color: #3c3c3c;
+  border-radius: 1px solid #3c3c3c;
+  padding: 28px 29px;
+}
+
+/* Ask a question section */
+
+section.support-ask-question .bg-container-green {
+  background-color: #54b9a0;
+  color: #ffffff;
+  margin: 115px 0;
+}
+
+section.support-ask-question .bg-container-green .heading-area {
+  padding: 79px 28px;
+}
+
+section.support-ask-question .bg-container-green .heading-area h2 {
+  font-size: 49px;
+  font-weight: 700;
+  margin-left: 93px;
+}
+
+section.support-ask-question .heading-area-right {
+  padding: 0 61px;
+}
+
+section.support-ask-question p {
+  font-size: 16px;
 }
 
 /************************************************
@@ -1059,7 +1235,7 @@ section.contact-text-introduction h1 {
 }
 
 section.contact-text-introduction p {
-  font-size: 25px;
+  font-size: 20px;
 }
 
 /** members sektion - contact **/
@@ -1096,7 +1272,7 @@ section.contact-members .member-container .member-info .member-name {
 }
 
 section.contact-members .member-container .member-info .member-position {
-  font-size: 20px;
+  font-size: 16px;
   font-style: italic;
 }
 

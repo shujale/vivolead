@@ -414,9 +414,10 @@ section.shedule-meeting-form .form-2 {
 
 section.shedule-meeting-form .btn-primary {
   margin-top: 40px;
+  width: 100%;
 }
 
-section.shedule-meeting-form .meeting-container{
+section.shedule-meeting-form .meeting-container {
   width: 100%;
   height: auto;
   padding: 38px;
@@ -429,16 +430,13 @@ section.shedule-meeting-form .meeting-container{
   background-color: #ffffff;
 }
 
-section.shedule-meeting-form .meeting-container a{
+section.shedule-meeting-form .meeting-container a {
   color: #54b9a0;
 }
 
-section.shedule-meeting-form .btn-outline-secondary:hover,
-section.shedule-meeting-form .btn-outline-secondary:active{
+section.shedule-meeting-form .btn-outline-secondary:hover, section.shedule-meeting-form .btn-outline-secondary:active {
   background-color: transparent !important;
 }
-
-
 
 section.shedule-meeting-form .input-group-append {
   position: absolute;
@@ -448,7 +446,6 @@ section.shedule-meeting-form .input-group-append {
 section.shedule-meeting-form .gj-datepicker-bootstrap [role=right-icon] button {
   border: transparent !important;
 }
-
 
 section.shedule-meeting-form .gj-datepicker-bootstrap [role=right-icon] button .gj-icon {
   top: 15px;
@@ -704,7 +701,7 @@ section.frontpage-service {
 section.frontpage-service .heading-area h2 {
   font-weight: 500;
   font-size: 32px;
-  margin-bottom: 30px;
+  margin-bottom: 60px;
 }
 
 section.frontpage-service .heading-area p {
@@ -786,6 +783,78 @@ section.frontpage-download .download-container {
 
 section.frontpage-download .download-container img {
   width: 95%;
+}
+
+/** Case studies - Frontpage **/
+
+section.frontpage-case-study {
+  padding: 119px 130px 150px 100px;
+}
+
+section.frontpage-case-study .heading-area h2 {
+  font-weight: 700;
+  margin-bottom: 60px;
+}
+
+section.frontpage-case-study .flip-card-front .flip-card-content {
+  padding: 0;
+}
+
+section.frontpage-case-study .flip-card-front .flip-card-content .flip-content-caption {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 50px;
+  position: absolute;
+  bottom: -21px;
+  background-color: #ffffff;
+  -webkit-box-shadow: 0px 3px 6px 0px rgba(60, 60, 60, 0.29) !important;
+  -moz-box-shadow: 0px 3px 6px 0px rgba(60, 60, 60, 0.29) !important;
+  box-shadow: 0px 3px 6px 0px rgba(60, 60, 60, 0.29) !important;
+  border-radius: 0 0 5px 5px;
+}
+
+section.frontpage-case-study .flip-card-front .flip-card-content .flip-content-caption h3{
+  position: relative;
+  top: 0;
+  left: 0;
+  font-size: 14px;
+  font-weight: 400;
+  color: #3c3c3c;
+}
+
+section.frontpage-case-study .flip-card-front .flip-card-content .icon-work-image {
+  width: 100%;
+  max-width: 500px;
+  margin-top: -19px;
+}
+
+section.frontpage-case-study .flip-card-back {
+  height: auto;
+  background-color: #54b9a0;
+}
+
+section.frontpage-case-study .flip-card-back .flip-card-content h3 {
+  position: relative;
+  top: 0;
+  left: 0;
+  font-size: 19px;
+}
+
+section.frontpage-case-study .flip-card-back .flip-card-content h4 {
+  position: relative;
+  top: 0;
+  left: 0;
+  font-size: 14px;
+}
+
+section.frontpage-case-study .flip-card-back .flip-card-content p {
+  margin-top: 20px;
+}
+
+section.frontpage-case-study .flip-card-back .flip-card-content a{
+  color: #ffffff !important;
 }
 
 /************************************************

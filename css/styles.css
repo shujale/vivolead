@@ -403,6 +403,69 @@ section.shedule-meeting-form select {
   -moz-appearance: none;
 }
 
+section.shedule-meeting-form label {
+  margin-top: 20px;
+}
+
+section.shedule-meeting-form .form-2 {
+  border: 1px solid #54b9a0 !important;
+  padding: 15px;
+}
+
+section.shedule-meeting-form .btn-primary {
+  margin-top: 40px;
+}
+
+section.shedule-meeting-form .meeting-container{
+  width: 100%;
+  height: auto;
+  padding: 38px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-right: 1px solid #54b9a0;
+  border-left: 1px solid #54b9a0;
+  border-bottom: 1px solid #54b9a0;
+  background-color: #ffffff;
+}
+
+section.shedule-meeting-form .meeting-container a{
+  color: #54b9a0;
+}
+
+section.shedule-meeting-form .btn-outline-secondary:hover,
+section.shedule-meeting-form .btn-outline-secondary:active{
+  background-color: transparent !important;
+}
+
+
+
+section.shedule-meeting-form .input-group-append {
+  position: absolute;
+  right: 0;
+}
+
+section.shedule-meeting-form .gj-datepicker-bootstrap [role=right-icon] button {
+  border: transparent !important;
+}
+
+
+section.shedule-meeting-form .gj-datepicker-bootstrap [role=right-icon] button .gj-icon {
+  top: 15px;
+  left: 41px;
+  color: #54b9a0;
+}
+
+section.shedule-meeting-form .gj-timepicker-bootstrap [role=right-icon] button {
+  border: transparent !important;
+}
+
+section.shedule-meeting-form .gj-timepicker-bootstrap [role=right-icon] button .gj-icon {
+  top: 15px;
+  left: 41px;
+  color: #54b9a0;
+}
+
 /************************************************
 
   CSS REGLER FOR SECTION - FRONTPAGE
@@ -688,7 +751,7 @@ section.frontpage-service .card-container .btn-primary {
 /** Download the app - Frontpage **/
 
 section.frontpage-download {
-  padding: 300px 130px 320px 100px;
+  padding: 300px 130px 346px 100px;
 }
 
 section.frontpage-download .heading-area {
@@ -703,7 +766,7 @@ section.frontpage-download h2 {
 }
 
 section.frontpage-download p {
-  padding-right: 112px;
+  padding-right: 136px;
   margin-bottom: 50px;
 }
 
@@ -1051,7 +1114,7 @@ section.case-study-heroimage img {
 
 section.case-study-testimonial {
   padding: 110px 130px 75px 100px;
-  background: #eeeeee url('../images/quote-mark-bg.png');
+  background: #f9fafc url('../images/quote-mark-bg.png');
   background-repeat: no-repeat;
   background-position: left;
 }

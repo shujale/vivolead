@@ -16,6 +16,7 @@
   <link href="https://fonts.googleapis.com/css?family=Raleway:400,500,700" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
   <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  <link href="https://unpkg.com/gijgo@1.9.13/css/gijgo.min.css" rel="stylesheet" type="text/css" />
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 </head>
 
@@ -58,7 +59,7 @@
           </li>
           <!-- Nav link with dropdrown -->
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="cases.html" role="button"  data-hover="dropdown">
+            <a class="nav-link dropdown-toggle" href="cases.html" role="button" data-hover="dropdown">
           Cases
         </a>
             <div class="dropdown-menu row">
@@ -83,7 +84,7 @@
           </li>
           <!-- Nav link with dropdrown -->
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="support.html" role="button"  data-hover="dropdown">
+            <a class="nav-link dropdown-toggle" href="support.html" role="button" data-hover="dropdown">
           Support
         </a>
             <div class="dropdown-menu noextra row">
@@ -102,10 +103,9 @@
         <ul class="navbar-nav navbar-right">
           <!-- Nav link with dropdown -->
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-hover="dropdown"
-          <img src="./images/translate.svg" class="translate-svg">EN
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-hover="dropdown" <img src="./images/translate.svg" class="translate-svg">EN
         </a>
-            <div class="dropdown-menu noextra row" >
+            <div class="dropdown-menu noextra row">
               <div class="dropdown-left">
                 <a class="dropdown-item" href="#">DA</a>
                 <a class="dropdown-item" href="#">DE</a>
@@ -242,6 +242,80 @@
     <!-- CONTACT MEMBER SECTION END -->
 
 
+    <!-- SCHEDULE A MEETING SECTION START -->
+    <section class="shedule-meeting-form">
+      <div class="container">
+        <!-- Text -->
+        <div class="row">
+          <div class="col-md-12 col-sm-12">
+            <div class="heading-area text-center">
+              <h2>Schedule a meeting</h2>
+            </div>
+          </div>
+        </div>
+        <!-- Form -->
+        <div class="row">
+          <div class="col-md-12 col-sm-12">
+            <form class="p-3">
+
+              <div class="form-group">
+                <label for="seeAnotherFieldGroup">Meeting type*</label>
+                <select class="form-control" id="seeAnotherFieldGroup">
+                  <option value="no">Call us</option>
+                  <option value="yes">Personal meeting</option>
+                  <option value="no">Online meeting</option>
+                </select>
+              </div>
+
+              <div class="form-group" id="otherFieldGroupDiv">
+                <div class="row">
+                  <div class="col-md-12 col-sm-12">
+                    <label for="otherField1">Where do you want us to meet?</label>
+                    <input type="text" class="form-control form-2 w-100" id="otherField1" placeholder="Vivolead HQ">
+                    <div class="meeting-container">
+                      <p>
+                        Saralyst Alle 53,<br /> 8270, Hoejbjerg
+                      </p>
+                      <a href="https://goo.gl/maps/dQ3WUPgq56YYkzsE8" title="Show location on Google Maps" target="_blank">Show location on Google Maps </a>
+                    </div>
+                  </div>
+                  <div class="col-md-12 col-sm-12">
+                    <label for="otherField1">Date*</label>
+                    <input type="text" class="form-control form-2 w-100" id="datepicker">
+                  </div>
+                  <div class="col-md-12 col-sm-12">
+                    <label for="otherField1">Time*</label>
+                    <input type="text" class="form-control form-2 w-100" id="timepicker">
+                  </div>
+                  <div class="col-md-12 col-sm-12">
+                    <label for="otherField1">Name*</label>
+                    <input type="text" class="form-control form-2 w-100" id="otherField1" placeholder="Morten Holst">
+                  </div>
+                  <div class="col-md-12 col-sm-12">
+                    <label for="otherField1">Company/organization*</label>
+                    <input type="text" class="form-control form-2 w-100" id="otherField1" placeholder="Vivolead">
+                  </div>
+                  <div class="col-md-12 col-sm-12">
+                    <label for="otherField1">Email*</label>
+                    <input type="email" class="form-control form-2 w-100" id="otherField1" placeholder="mh@vivolead.com">
+                  </div>
+                  <div class="col-md-12 col-sm-12">
+                    <label for="otherField1">Phone (optional)</label>
+                    <input class="form-control form-2" type="tel" id="example-number-input" placeholder="+45 1234 5678">
+                  </div>
+                  <div class="col-md-12 col-sm-12">
+                    <button type="submit" class="btn btn-primary">Book the meeting now</button>
+                  </div>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- SCHEDULE A METTING SECTION END -->
+
+
     <!-- FOOTER MENU START -->
     <footer>
       <div class="container">
@@ -298,9 +372,20 @@
   </main>
 
   <!-- JS -->
-  <script src="js/functions.js"></script>
+  <!-- JS -->
   <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-</body>
+  <script src="https://unpkg.com/gijgo@1.9.13/js/gijgo.min.js" type="text/javascript"></script>
+  <script src="js/functions.js"></script>
+  <script src="js/schedule-meeting-form.js"></script>
+  <script>
+    $('#datepicker').datepicker({
+      uiLibrary: 'bootstrap4'
+    });
+
+    $('#timepicker').timepicker({
+      uiLibrary: 'bootstrap4'
+    });
+  </script>
 
 </html>

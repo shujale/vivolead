@@ -50,7 +50,7 @@ function myFunction() {
     btnText.innerHTML = "Show less";
     moreText.style.display = "flex";
   }
-}
+};
 
 
 /************************************************
@@ -67,3 +67,11 @@ function toggleIcon(e) {
 }
 $('.panel-group').on('hidden.bs.collapse', toggleIcon);
 $('.panel-group').on('shown.bs.collapse', toggleIcon);
+
+
+
+/************************************************
+
+JAVASCRIPT FOR DATE & TIMEPICKER
+
+*************************************************/
